@@ -1,0 +1,36 @@
+.report {
+  margin: 5px;
+}
+
+.report tbody tr td:not(.row-options) {
+  min-width: 100px;
+}
+
+.report td input,
+.report td textarea {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.report .table {
+  border: unset;
+}
+
+.report .manual tr {
+  display: flex;
+  height: 100% !important;
+  border-bottom: unset;
+}
+
+.report .manual tr td {
+  flex: 1;
+  height: 100%;
+}
+
+.report .manual tr td.row-options {
+  flex: unset;
+}
+
+.report .manual tbody tr td select {
+  min-width: unset;
+}

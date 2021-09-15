@@ -1,0 +1,239 @@
+@font-face {
+  font-family: Vazir;
+  src: url("../node_modules/vazir-font/dist/Vazir-Regular.eot");
+  src: url("../node_modules/vazir-font/dist/Vazir-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../node_modules/vazir-font/dist/Vazir-Regular.woff2") format("woff2"),
+    url("../node_modules/vazir-font/dist/Vazir-Regular.woff") format("woff"),
+    url("../node_modules/vazir-font/dist/Vazir-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../node_modules/vazir-font/dist/Vazir-Bold.eot");
+  src: url("../node_modules/vazir-font/dist/Vazir-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../node_modules/vazir-font/dist/Vazir-Bold.woff2") format("woff2"),
+    url("../node_modules/vazir-font/dist/Vazir-Bold.woff") format("woff"),
+    url("../node_modules/vazir-font/dist/Vazir-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../node_modules/vazir-font/dist/Vazir-Black.eot");
+  src: url("../node_modules/vazir-font/dist/Vazir-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("../node_modules/vazir-font/dist/Vazir-Black.woff2") format("woff2"),
+    url("../node_modules/vazir-font/dist/Vazir-Black.woff") format("woff"),
+    url("../node_modules/vazir-font/dist/Vazir-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../node_modules/vazir-font/dist/Vazir-Medium.eot");
+  src: url("../node_modules/vazir-font/dist/Vazir-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../node_modules/vazir-font/dist/Vazir-Medium.woff2") format("woff2"),
+    url("../node_modules/vazir-font/dist/Vazir-Medium.woff") format("woff"),
+    url("../node_modules/vazir-font/dist/Vazir-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../node_modules/vazir-font/dist/Vazir-Light.eot");
+  src: url("../node_modules/vazir-font/dist/Vazir-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../node_modules/vazir-font/dist/Vazir-Light.woff2") format("woff2"),
+    url("../node_modules/vazir-font/dist/Vazir-Light.woff") format("woff"),
+    url("../node_modules/vazir-font/dist/Vazir-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../node_modules/vazir-font/dist/Vazir-Thin.eot");
+  src: url("../node_modules/vazir-font/dist/Vazir-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("../node_modules/vazir-font/dist/Vazir-Thin.woff2") format("woff2"),
+    url("../node_modules/vazir-font/dist/Vazir-Thin.woff") format("woff"),
+    url("../node_modules/vazir-font/dist/Vazir-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+:root {
+  --active-color: #ccc;
+  --blue: #2e5bff;
+  --green: #33ac2e;
+  --red: #d63649;
+  --yellow: #f7c137;
+  --orange: #fa9c0f;
+  --light-blue: #00c1d4;
+  --dark-blue: #143ac5;
+  --purple: #8c54ff;
+  --gray: #8798ad;
+  --base: #eaeeff;
+  --black: #2e384d;
+  --element: #f9faff;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--gray);
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--black);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+  background-color: #f2f3f7;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.spliter {
+  width: 4px;
+  cursor: col-resize;
+}
+
+.full-width:not(.lui-switch):not([type="checkbox"]) {
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .display-flex {
+    flex-direction: column;
+  }
+}
+
+svg {
+  width: 1.5em;
+  stroke-width: 1.5;
+}
+
+.float-right {
+  float: right;
+}
+
+.margin-5 {
+  margin: 5px;
+}
+
+.max-width-800 {
+  max-width: 800px;
+}
+
+.lui-table .lui-input,
+.lui-table .lui-select,
+.lui-table .lui-multi-select {
+  background: inherit;
+  border: unset;
+  padding: unset;
+  border-radius: unset;
+}
+
+.lui-table .lui-multi-select {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.lui-table .lui-input:focus,
+.lui-table .lui-input:focus-visible,
+.lui-table .lui-select:focus {
+  outline: none;
+  border: none;
+  box-shadow: unset;
+}
+
+.lui-table .lui-input:read-only {
+  cursor: default;
+}
+
+.lui-table tbody tr.disabled {
+  background-color: rgb(245, 244, 244);
+}
+
+.lui-table tbody tr.disabled svg {
+  color: #b6b2b2 !important;
+}
+
+.margin-left-5 {
+  margin-left: 5px;
+}
+
+.group-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0.4em;
+  margin-top: 0.8em;
+  padding: 0.3em;
+}
+
+.group-container .dropdown {
+  position: absolute;
+  top: -0.7em;
+  right: 0;
+}
+
+.group-container[display="horizontal"] {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.lui-titlebar .dropdown {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  height: 100% !important;
+}
+
+.lui-float-panel .lui-fields {
+  background-color: inherit;
+}

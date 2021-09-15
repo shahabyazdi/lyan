@@ -1,0 +1,90 @@
+.formula-container .formula {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.formula-container .formula li:not(.suggestion-item) {
+  padding: 2px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 6px;
+  border-radius: 5px;
+  margin: 1px;
+  color: white;
+  box-shadow: 0 0 1px var(--gray);
+  margin-right: 2px;
+  font-size: 12px;
+}
+
+.formula-container .formula li.element {
+  background-color: var(--green);
+}
+
+.formula-container .formula li.condition {
+  background-color: var(--light-blue);
+}
+
+.formula-container .formula li.number {
+  background-color: var(--purple);
+}
+
+.formula-container .formula li.not.element {
+  background-color: var(--blue);
+}
+
+.formula-container .formula li.invalid {
+  background-color: var(--red);
+}
+
+.formula-container .formula li button {
+  align-items: center;
+  display: inline-flex;
+  border: none;
+  cursor: pointer;
+  height: 11px;
+  width: 11px;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 10px;
+  transform: rotate(45deg);
+  margin: 0 3px;
+}
+
+.formula-container .formula li button:focus,
+.formula-container .formula .text {
+  outline: none;
+}
+
+.formula-container .formula .text {
+  flex-grow: 1;
+  background: none;
+  border: none;
+}
+
+.formula-container .suggestions {
+  /* position: fixed; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  border: 1px solid var(--gray);
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.formula-container .suggestions li {
+  background-color: var(--base);
+  border-radius: 4px;
+  margin: 2px;
+  padding: 1px 3px;
+  cursor: pointer;
+  color: var(--black);
+}
+
+.formula-container .suggestions li:hover {
+  background-color: #eee;
+}

@@ -1,0 +1,17 @@
+.sheet {
+  display: flex;
+  height: 100%;
+}
+
+.sheet .items {
+  height: 100%;
+  width: 260px;
+  padding-left: 0.3em;
+}
+
+.sheet .sheet-details {
+  flex: 1;
+  margin: 0.6em;
+  margin-left: 0.3em;
+  overflow: auto;
+}

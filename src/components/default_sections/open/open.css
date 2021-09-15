@@ -1,0 +1,20 @@
+.recent-files {
+  list-style: none;
+}
+
+.recent-files h4 {
+  position: relative;
+  cursor: pointer;
+}
+
+.recent-files h4 svg {
+  position: absolute;
+  top: 50%;
+  left: -1.8em;
+  transform: translateY(-50%);
+}
+
+.rtl .recent-files h4 svg {
+  left: unset;
+  right: -1.8em;
+}

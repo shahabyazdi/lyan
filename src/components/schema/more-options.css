@@ -1,0 +1,30 @@
+.select-option-text,
+.select-option-value{
+  border: unset;
+  width: 80px;
+}
+
+.select-option-text{
+  text-align: right;
+}
+
+.select-option-value{
+  text-align: left;
+}
+
+.select-option-text:focus,
+.select-option-value:focus{
+  outline: none!important;
+}
+
+.select-option-remove{
+  border: 1px solid var(--gray);
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  font-size: 11px;
+  cursor: pointer;
+  line-height: 10px;
+  text-align: center;
+  margin-top: 2px;
+}

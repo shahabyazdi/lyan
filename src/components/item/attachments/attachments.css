@@ -1,0 +1,78 @@
+.attachments {
+  margin-top: 0.8em;
+  height: calc(100% - 5.1em);
+}
+
+.attachments .path {
+  padding: 0.5em;
+  padding-bottom: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--base);
+  margin-bottom: 0.5em;
+}
+
+.attachments .path .subpath {
+  cursor: pointer;
+  height: 20px;
+  position: relative;
+}
+
+.attachments .path input {
+  border-radius: 5px;
+  margin: 0 3px;
+}
+
+.attachments .file {
+  display: inline-block;
+  margin: 5px;
+  border-radius: 5px;
+  width: 85px;
+  height: 110px;
+  overflow: hidden;
+  box-shadow: 0 0 3px var(--gray);
+}
+
+.attachments .file:hover {
+  box-shadow: 0 0 3px var(--black);
+}
+
+.attachments .file svg {
+  height: 80px;
+  width: 80px;
+  stroke-width: 1;
+}
+
+.attachments .file img {
+  width: 70%;
+  height: 80%;
+  margin: auto;
+  border-radius: 0.5em;
+}
+
+.unselectable {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.right-click {
+  margin: 5px;
+  padding: 0;
+  list-style: none;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.right-click li {
+  min-width: 120px;
+  padding: 2px 10px;
+}
+
+.right-click li:hover {
+  background-color: gainsboro;
+}

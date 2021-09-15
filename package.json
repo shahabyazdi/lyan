@@ -1,0 +1,93 @@
+{
+  "name": "lyan",
+  "version": "0.1.0",
+  "homepage": "./",
+  "main": "public/electron.js",
+  "private": true,
+  "author": "shahab yazdi <sh.yazdi@gmail.com>",
+  "dependencies": {
+    "@tabler/icons": "^1.41.2",
+    "archiver": "^5.3.0",
+    "array-move": "^4.0.0",
+    "bson": "^4.5.1",
+    "electron-is-dev": "^2.0.0",
+    "electron-store": "^8.0.0",
+    "lyan-ui": "^0.1.2",
+    "mathjs": "^9.4.4",
+    "prismjs": "^1.24.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.5",
+    "react-scripts": "4.0.3",
+    "react-virtualized": "^9.22.3",
+    "redux": "^4.1.1",
+    "sass": "^1.39.2",
+    "sharp": "^0.29.1",
+    "unzipper": "^0.10.11",
+    "vazir-font": "^30.1.0",
+    "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "electron": "^14.0.0",
+    "electron-builder": "^22.11.7",
+    "wait-on": "^6.0.0"
+  },
+  "scripts": {
+    "start": "concurrently \"yarn react-start\" \"wait-on http://localhost:3000 && electron .\"",
+    "build": "electron-builder --win",
+    "prebuild": "yarn react-build",
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "react-eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "globals": {
+      "api": "readonly"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "build": {
+    "appId": "com.example.electron-cra",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "win": {
+      "target": [
+        "portable"
+      ]
+    },
+    "linux": {
+      "target": [
+        "deb",
+        "zip"
+      ]
+    },
+    "fileAssociations": [
+      {
+        "ext": "lmsf",
+        "name": "Lyan Managment System File",
+        "role": "Editor"
+      }
+    ]
+  }
+}

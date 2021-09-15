@@ -1,0 +1,12 @@
+.reports {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+  margin: 0.3em 0.6em;
+}
+
+.table-container {
+  margin: 0.4em 0;
+  margin-bottom: 1.05em;
+  overflow: auto;
+}

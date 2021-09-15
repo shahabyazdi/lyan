@@ -1,0 +1,4294 @@
+[
+  {
+    "id": "606ea668897811b719203f2c",
+    "name": "Contract Managment",
+    "date": 1630848188818,
+    "sheets": [
+      {
+        "id": "5eb25e2c7d44c02724735099",
+        "name": "Persons",
+        "itemFormat": "element",
+        "date": 1630848188818,
+        "schemas": [
+          {
+            "name": "Name",
+            "element": "input",
+            "type": "text",
+            "id": "5eb25e2c7d44c02724735097",
+            "required": true,
+            "itemName": true,
+            "group": "5eb25ec8b02d0c0bec580fb5",
+            "date": 1630848188818
+          },
+          {
+            "name": "Family",
+            "element": "input",
+            "type": "text",
+            "id": "5eb25e2c7d44c02724735098",
+            "itemName": true,
+            "group": "5eb25ec8b02d0c0bec580fb5",
+            "date": 1630848188818
+          },
+          {
+            "name": "Birthday",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5eb25e697d44c0272473514d",
+            "required": false,
+            "group": "5eb25ec8b02d0c0bec580fb5",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Gender",
+            "element": "select",
+            "type": "manual",
+            "id": "5eb4f5b6ada27a24409d5a81",
+            "required": false,
+            "options": [
+              [
+                "Male",
+                "male"
+              ],
+              [
+                "Female",
+                "female"
+              ],
+              [
+                "Other",
+                "other"
+              ]
+            ],
+            "group": "5eb25ec8b02d0c0bec580fb5",
+            "allowMoreOptions": false,
+            "emptyOption": true,
+            "date": 1630848188818
+          },
+          {
+            "name": "Age",
+            "element": "input",
+            "type": "number",
+            "id": "5eb25e527d44c02724735110",
+            "required": false,
+            "group": "5eb25ec8b02d0c0bec580fb5",
+            "separator": false,
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Marital Status",
+            "element": "select",
+            "type": "manual",
+            "id": "5eb25e947d44c02724735193",
+            "required": false,
+            "options": [
+              [
+                "Single",
+                "single"
+              ],
+              [
+                "Married",
+                "married"
+              ]
+            ],
+            "group": "5eb25ec8b02d0c0bec580fb5",
+            "allowMoreOptions": false,
+            "emptyOption": true,
+            "date": 1630848188818
+          },
+          {
+            "name": "ID",
+            "element": "input",
+            "type": "text",
+            "id": "5eb25ebab02d0c0bec580f3a",
+            "required": false,
+            "group": "5eb25ec8b02d0c0bec580fb5",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "National Number",
+            "element": "input",
+            "type": "text",
+            "id": "5eb4f5d2ada27a24409d5b51",
+            "required": false,
+            "group": "5eb25ec8b02d0c0bec580fb5",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "General",
+            "element": "group",
+            "type": "accordion",
+            "id": "5eb25ec8b02d0c0bec580fb5",
+            "required": false,
+            "collapse": false,
+            "values": [
+              "5eb25e2c7d44c02724735097",
+              "5eb25e2c7d44c02724735098",
+              "5eb25e697d44c0272473514d",
+              "5eb4f5b6ada27a24409d5a81",
+              "5eb25e527d44c02724735110",
+              "5eb25e947d44c02724735193",
+              "5eb25ebab02d0c0bec580f3a",
+              "5eb4f5d2ada27a24409d5b51",
+              "5eb4f62cada27a24409d6147",
+              "5eb4f617ada27a24409d5f3e",
+              "5eb25f3cb02d0c0bec581497",
+              "5edc74545098ab31e808f6db"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Work",
+            "element": "group",
+            "type": "accordion",
+            "id": "5eb25ee5b02d0c0bec5810b2",
+            "required": false,
+            "collapse": true,
+            "values": [
+              "5eb25f07b02d0c0bec5811e2",
+              "5eb4f633ada27a24409d6259",
+              "5eb4f63cada27a24409d6374",
+              "5eb4f621ada27a24409d603e",
+              "5eb25f2bb02d0c0bec5813e8"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Corporation",
+            "element": "select",
+            "type": "sheet item",
+            "id": "5eb25f07b02d0c0bec5811e2",
+            "required": false,
+            "sheet": "5eb25ef9b02d0c0bec581105",
+            "group": "5eb25ee5b02d0c0bec5810b2",
+            "allowMoreOptions": true,
+            "emptyOption": true,
+            "date": 1630848188818
+          },
+          {
+            "name": "Social",
+            "element": "group",
+            "type": "accordion",
+            "id": "5eb4f5efada27a24409d5c74",
+            "required": false,
+            "collapse": true,
+            "values": [
+              "5eb4f5fcada27a24409d5d59",
+              "5eb4f606ada27a24409d5e47"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Email",
+            "element": "input",
+            "type": "email",
+            "id": "5eb4f5fcada27a24409d5d59",
+            "required": false,
+            "group": "5eb4f5efada27a24409d5c74",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Website",
+            "element": "input",
+            "type": "text",
+            "id": "5eb4f606ada27a24409d5e47",
+            "required": false,
+            "group": "5eb4f5efada27a24409d5c74",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Phone",
+            "element": "input",
+            "type": "text",
+            "id": "5eb4f62cada27a24409d6147",
+            "required": false,
+            "group": "5eb25ec8b02d0c0bec580fb5",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Phone",
+            "element": "input",
+            "type": "text",
+            "id": "5eb4f633ada27a24409d6259",
+            "required": false,
+            "group": "5eb25ee5b02d0c0bec5810b2",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Fax",
+            "element": "input",
+            "type": "text",
+            "id": "5eb4f63cada27a24409d6374",
+            "required": false,
+            "group": "5eb25ee5b02d0c0bec5810b2",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Postal Code",
+            "element": "input",
+            "type": "text",
+            "id": "5eb4f617ada27a24409d5f3e",
+            "required": false,
+            "group": "5eb25ec8b02d0c0bec580fb5",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Postal Code",
+            "element": "input",
+            "type": "text",
+            "id": "5eb4f621ada27a24409d603e",
+            "required": false,
+            "group": "5eb25ee5b02d0c0bec5810b2",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Address",
+            "element": "input",
+            "type": "text",
+            "id": "5eb25f2bb02d0c0bec5813e8",
+            "required": false,
+            "group": "5eb25ee5b02d0c0bec5810b2",
+            "date": 1630848188818
+          },
+          {
+            "name": "Address",
+            "element": "input",
+            "type": "text",
+            "id": "5eb25f3cb02d0c0bec581497",
+            "required": false,
+            "group": "5eb25ec8b02d0c0bec580fb5",
+            "date": 1630848188818
+          },
+          {
+            "name": "Descriptions",
+            "element": "input",
+            "type": "textarea",
+            "id": "5edc74545098ab31e808f6db",
+            "required": false,
+            "group": "5eb25ec8b02d0c0bec580fb5",
+            "date": 1630848188818
+          }
+        ],
+        "descriptions": "",
+        "itemName": true,
+        "items": []
+      },
+      {
+        "id": "5eb25ef9b02d0c0bec581105",
+        "name": "Corporations",
+        "itemFormat": "element",
+        "date": 1630848188818,
+        "schemas": [
+          {
+            "name": "Name",
+            "element": "input",
+            "type": "text",
+            "id": "5eb25ef9b02d0c0bec581104",
+            "required": true,
+            "itemName": true,
+            "group": "5eb4fea69411a10abc06ea53",
+            "date": 1630848188818
+          },
+          {
+            "name": "CEO",
+            "element": "select",
+            "type": "sheet item",
+            "id": "5eb25fee64190b08e4a50a72",
+            "required": false,
+            "sheet": "5eb25e2c7d44c02724735099",
+            "group": "5eb4fea69411a10abc06ea53",
+            "allowMoreOptions": true,
+            "emptyOption": true,
+            "date": 1630848188818
+          },
+          {
+            "name": "Fax",
+            "element": "input",
+            "type": "text",
+            "id": "5eb4fd768dc4e81fc8149792",
+            "required": false,
+            "group": "5eb4fee99411a10abc06ed2e",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Email",
+            "element": "input",
+            "type": "email",
+            "id": "5eb4fdaf8dc4e81fc8149c93",
+            "required": false,
+            "group": "5eb4fee99411a10abc06ed2e",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Website",
+            "element": "input",
+            "type": "text",
+            "id": "5eb4fdb58dc4e81fc8149e50",
+            "required": false,
+            "group": "5eb4fee99411a10abc06ed2e",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Registration Number",
+            "element": "input",
+            "type": "text",
+            "id": "5eb2603c64190b08e4a510a0",
+            "required": false,
+            "group": "5eb4fee99411a10abc06ed2e",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Establishment Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5eb2604b64190b08e4a5127c",
+            "required": false,
+            "group": "5eb4fee99411a10abc06ed2e",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Activity Type",
+            "element": "select",
+            "type": "manual",
+            "id": "5eb4fd4b8dc4e81fc81492e2",
+            "required": false,
+            "group": "5eb4fea69411a10abc06ea53",
+            "options": [
+              [
+                "Accounting",
+                "Accounting"
+              ],
+              [
+                "Airlines Aviation",
+                "Airlines/Aviation"
+              ],
+              [
+                "Alternative Dispute Resolution",
+                "Alternative Dispute Resolution"
+              ],
+              [
+                "Alternative Medicine",
+                "Alternative Medicine"
+              ],
+              [
+                "Animation",
+                "Animation"
+              ],
+              [
+                "Apparel And Fashion",
+                "Apparel & Fashion"
+              ],
+              [
+                "Architecture And Planning",
+                "Architecture & Planning"
+              ],
+              [
+                "Arts And Crafts",
+                "Arts & Crafts"
+              ],
+              [
+                "Automotive",
+                "Automotive"
+              ],
+              [
+                "Aviation And Aerospace",
+                "Aviation & Aerospace"
+              ],
+              [
+                "Banking",
+                "Banking"
+              ],
+              [
+                "Biotechnology",
+                "Biotechnology"
+              ],
+              [
+                "Broadcast Media",
+                "Broadcast Media"
+              ],
+              [
+                "Building Materials",
+                "Building Materials"
+              ],
+              [
+                "Business Supplies And Equipment",
+                "Business Supplies & Equipment"
+              ],
+              [
+                "Capital Markets",
+                "Capital Markets"
+              ],
+              [
+                "Chemicals",
+                "Chemicals"
+              ],
+              [
+                "Civic And Social Organization",
+                "Civic & Social Organization"
+              ],
+              [
+                "Civil Engineering",
+                "Civil Engineering"
+              ],
+              [
+                "Commercial Real Estate",
+                "Commercial Real Estate"
+              ],
+              [
+                "Computer And Network Security",
+                "Computer & Network Security"
+              ],
+              [
+                "Computer Games",
+                "Computer Games"
+              ],
+              [
+                "Computer Hardware",
+                "Computer Hardware"
+              ],
+              [
+                "Computer Networking",
+                "Computer Networking"
+              ],
+              [
+                "Computer Software",
+                "Computer Software"
+              ],
+              [
+                "Construction",
+                "Construction"
+              ],
+              [
+                "Consumer Electronics",
+                "Consumer Electronics"
+              ],
+              [
+                "Consumer Goods",
+                "Consumer Goods"
+              ],
+              [
+                "Consumer Services",
+                "Consumer Services"
+              ],
+              [
+                "Cosmetics",
+                "Cosmetics"
+              ],
+              [
+                "Dairy",
+                "Dairy"
+              ],
+              [
+                "Defense And Space",
+                "Defense & Space"
+              ],
+              [
+                "Design",
+                "Design"
+              ],
+              [
+                "Education Management",
+                "Education Management"
+              ],
+              [
+                "E Learning",
+                "E-learning"
+              ],
+              [
+                "Electrical And Electronic Manufacturing",
+                "Electrical & Electronic Manufacturing"
+              ],
+              [
+                "Entertainment",
+                "Entertainment"
+              ],
+              [
+                "Environmental Services",
+                "Environmental Services"
+              ],
+              [
+                "Events Services",
+                "Events Services"
+              ],
+              [
+                "Executive Office",
+                "Executive Office"
+              ],
+              [
+                "Facilities Services",
+                "Facilities Services"
+              ],
+              [
+                "Farming",
+                "Farming"
+              ],
+              [
+                "Financial Services",
+                "Financial Services"
+              ],
+              [
+                "Fine Art",
+                "Fine Art"
+              ],
+              [
+                "Fishery",
+                "Fishery"
+              ],
+              [
+                "Food And Beverages",
+                "Food & Beverages"
+              ],
+              [
+                "Food Production",
+                "Food Production"
+              ],
+              [
+                "Fundraising",
+                "Fundraising"
+              ],
+              [
+                "Furniture",
+                "Furniture"
+              ],
+              [
+                "Gambling And Casinos",
+                "Gambling & Casinos"
+              ],
+              [
+                "Glass Ceramics And Concrete",
+                "Glass"
+              ],
+              [
+                "Government Administration",
+                "Government Administration"
+              ],
+              [
+                "Government Relations",
+                "Government Relations"
+              ],
+              [
+                "Graphic Design",
+                "Graphic Design"
+              ],
+              [
+                "Health Wellness And Fitness",
+                "Health"
+              ],
+              [
+                "Higher Education",
+                "Higher Education"
+              ],
+              [
+                "Hospital And Health Care",
+                "Hospital & Health Care"
+              ],
+              [
+                "Hospitality",
+                "Hospitality"
+              ],
+              [
+                "Human Resources",
+                "Human Resources"
+              ],
+              [
+                "Import And Export",
+                "Import & Export"
+              ],
+              [
+                "Individual And Family Services",
+                "Individual & Family Services"
+              ],
+              [
+                "Industrial Automation",
+                "Industrial Automation"
+              ],
+              [
+                "Information Services",
+                "Information Services"
+              ],
+              [
+                "Information Technology And Services",
+                "Information Technology & Services"
+              ],
+              [
+                "Insurance",
+                "Insurance"
+              ],
+              [
+                "International Affairs",
+                "International Affairs"
+              ],
+              [
+                "International Trade And Development",
+                "International Trade & Development"
+              ],
+              [
+                "Internet",
+                "Internet"
+              ],
+              [
+                "Investment Banking Venture",
+                "Investment Banking/Venture"
+              ],
+              [
+                "Investment Management",
+                "Investment Management"
+              ],
+              [
+                "Judiciary",
+                "Judiciary"
+              ],
+              [
+                "Law Enforcement",
+                "Law Enforcement"
+              ],
+              [
+                "Law Practice",
+                "Law Practice"
+              ],
+              [
+                "Legal Services",
+                "Legal Services"
+              ],
+              [
+                "Legislative Office",
+                "Legislative Office"
+              ],
+              [
+                "Leisure And Travel",
+                "Leisure & Travel"
+              ],
+              [
+                "Libraries",
+                "Libraries"
+              ],
+              [
+                "Logistics And Supply Chain",
+                "Logistics & Supply Chain"
+              ],
+              [
+                "Luxury Goods And Jewelry",
+                "Luxury Goods & Jewelry"
+              ],
+              [
+                "Machinery",
+                "Machinery"
+              ],
+              [
+                "Management Consulting",
+                "Management Consulting"
+              ],
+              [
+                "Maritime",
+                "Maritime"
+              ],
+              [
+                "Marketing And Advertising",
+                "Marketing & Advertising"
+              ],
+              [
+                "Market Research",
+                "Market Research"
+              ],
+              [
+                "Mechanical Or Industrial Engineering",
+                "Mechanical or Industrial Engineering"
+              ],
+              [
+                "Media Production",
+                "Media Production"
+              ],
+              [
+                "Medical Device",
+                "Medical Device"
+              ],
+              [
+                "Medical Practice",
+                "Medical Practice"
+              ],
+              [
+                "Mental Health Care",
+                "Mental Health Care"
+              ],
+              [
+                "Military",
+                "Military"
+              ],
+              [
+                "Mining And Metals",
+                "Mining & Metals"
+              ],
+              [
+                "Motion Pictures And Film",
+                "Motion Pictures & Film"
+              ],
+              [
+                "Museums And Institutions",
+                "Museums & Institutions"
+              ],
+              [
+                "Music",
+                "Music"
+              ],
+              [
+                "Nanotechnology",
+                "Nanotechnology"
+              ],
+              [
+                "Newspapers",
+                "Newspapers"
+              ],
+              [
+                "Nonprofit Organization Management",
+                "Nonprofit Organization Management"
+              ],
+              [
+                "Oil And Energy",
+                "Oil & Energy"
+              ],
+              [
+                "Online Publishing",
+                "Online Publishing"
+              ],
+              [
+                "Outsourcing Offshoring",
+                "Outsourcing/Offshoring"
+              ],
+              [
+                "Package Freight Delivery",
+                "Package/Freight Delivery"
+              ],
+              [
+                "Packaging And Containers",
+                "Packaging & Containers"
+              ],
+              [
+                "Paper And Forest Products",
+                "Paper & Forest Products"
+              ],
+              [
+                "Performing Arts",
+                "Performing Arts"
+              ],
+              [
+                "Pharmaceuticals",
+                "Pharmaceuticals"
+              ],
+              [
+                "Philanthropy",
+                "Philanthropy"
+              ],
+              [
+                "Photography",
+                "Photography"
+              ],
+              [
+                "Plastics",
+                "Plastics"
+              ],
+              [
+                "Political Organization",
+                "Political Organization"
+              ],
+              [
+                "Primary Secondary",
+                "Primary/Secondary"
+              ],
+              [
+                "Printing",
+                "Printing"
+              ],
+              [
+                "Professional Training",
+                "Professional Training"
+              ],
+              [
+                "Program Development",
+                "Program Development"
+              ],
+              [
+                "Public Policy",
+                "Public Policy"
+              ],
+              [
+                "Public Relations",
+                "Public Relations"
+              ],
+              [
+                "Public Safety",
+                "Public Safety"
+              ],
+              [
+                "Publishing",
+                "Publishing"
+              ],
+              [
+                "Railroad Manufacture",
+                "Railroad Manufacture"
+              ],
+              [
+                "Ranching",
+                "Ranching"
+              ],
+              [
+                "Real Estate",
+                "Real Estate"
+              ],
+              [
+                "Recreational",
+                "Recreational"
+              ],
+              [
+                "Facilities And Services",
+                "Facilities & Services"
+              ],
+              [
+                "Religious Institutions",
+                "Religious Institutions"
+              ],
+              [
+                "Renewables And Environment",
+                "Renewables & Environment"
+              ],
+              [
+                "Research",
+                "Research"
+              ],
+              [
+                "Restaurants",
+                "Restaurants"
+              ],
+              [
+                "Retail",
+                "Retail"
+              ],
+              [
+                "Security And Investigations",
+                "Security & Investigations"
+              ],
+              [
+                "Semiconductors",
+                "Semiconductors"
+              ],
+              [
+                "Shipbuilding",
+                "Shipbuilding"
+              ],
+              [
+                "Sporting Goods",
+                "Sporting Goods"
+              ],
+              [
+                "Sports",
+                "Sports"
+              ],
+              [
+                "Staffing And Recruiting",
+                "Staffing & Recruiting"
+              ],
+              [
+                "Supermarkets",
+                "Supermarkets"
+              ],
+              [
+                "Telecommunications",
+                "Telecommunications"
+              ],
+              [
+                "Textiles",
+                "Textiles"
+              ],
+              [
+                "Think Tanks",
+                "Think Tanks"
+              ],
+              [
+                "Tobacco",
+                "Tobacco"
+              ],
+              [
+                "Translation And Localization",
+                "Translation & Localization"
+              ],
+              [
+                "Transportation Trucking Railroad",
+                "Transportation/Trucking/Railroad"
+              ],
+              [
+                "Utilities",
+                "Utilities"
+              ],
+              [
+                "Venture Capital",
+                "Venture Capital"
+              ],
+              [
+                "Veterinary",
+                "Veterinary"
+              ],
+              [
+                "Warehousing",
+                "Warehousing"
+              ],
+              [
+                "Wholesale",
+                "Wholesale"
+              ],
+              [
+                "Wine And Spirits",
+                "Wine & Spirits"
+              ],
+              [
+                "Wireless",
+                "Wireless"
+              ],
+              [
+                "Writing And Editing",
+                "Writing & Editing"
+              ]
+            ],
+            "allowMoreOptions": true,
+            "emptyOption": true,
+            "date": 1630848188818
+          },
+          {
+            "name": "Phone",
+            "element": "input",
+            "type": "text",
+            "id": "5eb4fd708dc4e81fc81495f9",
+            "required": false,
+            "group": "5eb4fea69411a10abc06ea53",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Economic Code",
+            "element": "input",
+            "type": "text",
+            "id": "5eb4fd9e8dc4e81fc8149adf",
+            "required": false,
+            "group": "5eb4fee99411a10abc06ed2e",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "General",
+            "element": "group",
+            "type": "accordion",
+            "id": "5eb4fea69411a10abc06ea53",
+            "required": false,
+            "collapse": false,
+            "values": [
+              "5eb25ef9b02d0c0bec581104",
+              "5eb25fee64190b08e4a50a72",
+              "5eb4fd4b8dc4e81fc81492e2",
+              "5eb4fd708dc4e81fc81495f9"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "More",
+            "element": "group",
+            "type": "accordion",
+            "id": "5eb4fee99411a10abc06ed2e",
+            "required": false,
+            "collapse": true,
+            "values": [
+              "5eb4fd768dc4e81fc8149792",
+              "5eb4fdaf8dc4e81fc8149c93",
+              "5eb4fdb58dc4e81fc8149e50",
+              "5eb2603c64190b08e4a510a0",
+              "5eb2604b64190b08e4a5127c",
+              "5eb4fd9e8dc4e81fc8149adf",
+              "5eb4fd808dc4e81fc8149934",
+              "5eb4fd658dc4e81fc8149469"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Postal Code",
+            "element": "input",
+            "type": "text",
+            "id": "5eb4fd808dc4e81fc8149934",
+            "required": false,
+            "group": "5eb4fee99411a10abc06ed2e",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Address",
+            "element": "input",
+            "type": "text",
+            "id": "5eb4fd658dc4e81fc8149469",
+            "required": false,
+            "group": "5eb4fee99411a10abc06ed2e",
+            "date": 1630848188818
+          }
+        ],
+        "descriptions": "",
+        "itemName": true,
+        "items": []
+      },
+      {
+        "id": "5eb260ba64190b08e4a514d9",
+        "name": "Contracts",
+        "itemFormat": "element",
+        "date": 1630848188818,
+        "schemas": [
+          {
+            "name": "Subject",
+            "element": "input",
+            "type": "text",
+            "id": "5eb260ba64190b08e4a514d8",
+            "required": true,
+            "itemName": true,
+            "group": "5eb260d564190b08e4a518a8",
+            "date": 1630848188818
+          },
+          {
+            "name": "Status",
+            "element": "custom",
+            "type": "element",
+            "id": "5efc82c6989b8e16ecb58e32",
+            "required": false,
+            "html": "<div class=\"input full-width init[id]\" style=\"height:26px;position:relative;\">\r\n<span class=\"contract-status\"></span>\r\n<span class=\"contract-status-text\">در دست بررسی</span>\r\n</div>",
+            "css": ".contract-status{\r\npadding:5px;\r\nposition:absolute;\r\ntop:50%;\r\ntransform:translate(0,-50%);\r\nborder-radius:50%;\r\n}\r\n\r\n.contract-status-text{\r\nposition:absolute;\r\ntop:10%;\r\nright:25px;\r\nleft:25px;\r\ncolor:var(--black)\r\n}",
+            "script": "let suspend = value[5eb51d96e0c8f42098fe2c3f]\r\nlet isSuspend = Array.isArray(suspend) && suspend.length > 0\r\n\r\nif (isSuspend) {\r\n    classList = \"bg-orange\"\r\n    status = \"translate[SUSPENDED]\"\r\n}\r\n\r\nlet CONTRACTOR_REQUESTid = \"value[5eb519b4e0c8f42098fdaf60]\"\r\nlet CONTRACTOR_REQUEST_DATE = \"value[5eb519c2e0c8f42098fdb627]\"\r\nlet ADVISER_ACCEPTid = \"value[5efc95a142cb9a2924f4a994]\"\r\nlet ADVISER_ACCEPT_DATE = \"value[5eb51a42e0c8f42098fdc61a]\"\r\nlet EMPLOYER_COMMUNICATEid = \"value[5eb51a6de0c8f42098fdcf4d]\"\r\nlet EMPLOYER_COMMUNICATE_DATE = \"value[5eb51a7ae0c8f42098fdd63e]\"\r\nlet TEMPORARY_HANDOVER_DATE = \"value[5eb51acfe0c8f42098fdeb45]\"\r\n\r\nlet isTemporaryHandover = [\r\n    CONTRACTOR_REQUESTid,\r\n    CONTRACTOR_REQUEST_DATE,\r\n    ADVISER_ACCEPTid,\r\n    ADVISER_ACCEPT_DATE,\r\n    EMPLOYER_COMMUNICATEid,\r\n    EMPLOYER_COMMUNICATE_DATE,\r\n    TEMPORARY_HANDOVER_DATE\r\n].some(item => item && item !== \"undefined\")\r\n\r\nlet contractStatus = document.querySelector(\".contract-status\")\r\nlet contractStatusText = document.querySelector(\".contract-status-text\")\r\nlet classList = \"\"\r\nlet status = \"\"\r\n\r\nif (isTemporaryHandover) {\r\n    classList = \"bg-yellow\"\r\n    status = \"translate[TEMPORARY_HANDOVERED]\"\r\n}\r\n\r\nCONTRACTOR_REQUESTid = \"value[5efc8e33b6c53b191003f1b9]\"\r\nCONTRACTOR_REQUEST_DATE = \"value[5efc95320fb07a03bc8d4c48]\"\r\nADVISER_ACCEPTid = \"value[5eb51a34e0c8f42098fdbf3e]\"\r\nADVISER_ACCEPT_DATE = \"value[5efc95d40bce090d44e41cfa]\"\r\nEMPLOYER_COMMUNICATEid = \"value[5efc96012481d01664ad293b]\"\r\nEMPLOYER_COMMUNICATE_DATE = \"value[5efc962325d9a6118c8e4318]\"\r\n\r\nlet FINAL_HANDOVER_DATE = \"value[5efc96498913b0032852b9bf]\"\r\n\r\nlet isFinalHandover = [\r\n    CONTRACTOR_REQUESTid,\r\n    CONTRACTOR_REQUEST_DATE,\r\n    ADVISER_ACCEPTid,\r\n    ADVISER_ACCEPT_DATE,\r\n    EMPLOYER_COMMUNICATEid,\r\n    EMPLOYER_COMMUNICATE_DATE,\r\n    FINAL_HANDOVER_DATE\r\n].some(item => item && item !== \"undefined\")\r\n\r\nif (isFinalHandover) {\r\n    classList = \"bg-green\"\r\n    status = \"translate[HANDOVERED]\"\r\n}\r\n\r\nlet TERMINATE_EMPLOYER_LETTERid = \"value[5eb54de0a927490ae8c2d4b1]\"\r\nlet TERMINATE_EMPLOYER_LETTER_DATE = \"value[5eb54df1a927490ae8c2dcbc]\"\r\nlet TERMINATE_REASON = \"value[5eb54e7aa927490ae8c2e4d0]\"\r\nlet DESCRIPTIONS = \"value[5eb54e93a927490ae8c2efa3]\"\r\n\r\nlet isTerminated = [\r\n    TERMINATE_EMPLOYER_LETTERid,\r\n    TERMINATE_EMPLOYER_LETTER_DATE,\r\n    TERMINATE_REASON,\r\n    DESCRIPTIONS\r\n].some(item => item && item !== \"undefined\")\r\n\r\nif (isTerminated) {\r\n    classList = \"bg-red\"\r\n    status = \"translate[TERMINATED]\"\r\n}\r\n\r\nif (classList) contractStatus.classList.add(classList)\r\nif (status) contractStatusText.textContent = status",
+            "group": "5eb260d564190b08e4a518a8",
+            "date": 1630848188818
+          },
+          {
+            "name": "General",
+            "element": "group",
+            "type": "accordion",
+            "id": "5eb260d564190b08e4a518a8",
+            "required": false,
+            "collapse": false,
+            "values": [
+              "5eb260ba64190b08e4a514d8",
+              "5efc82c6989b8e16ecb58e32",
+              "5eb2610864190b08e4a51d41",
+              "5eb2611664190b08e4a51eb6",
+              "607d7717c300532a187b8fe2",
+              "607d7739c300532a187b8fe3",
+              "5eb2612f64190b08e4a521bb",
+              "5eb5015707f0161c1c39a0a2",
+              "5eb501ac07f0161c1c39a325",
+              "5eb501cc07f0161c1c39a5b1",
+              "5eb501df07f0161c1c39a846",
+              "5eb502f107f0161c1c39c20d"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Correspondents",
+            "element": "group",
+            "type": "accordion",
+            "id": "5eb260e664190b08e4a51a73",
+            "required": false,
+            "collapse": false,
+            "values": [
+              "5eb262dc57a85f253c24f4c0",
+              "5eb262ee57a85f253c24fa8d",
+              "5eb2630057a85f253c24ff11",
+              "5eb2631157a85f253c250483",
+              "5eb2632257a85f253c250885",
+              "5eb2633257a85f253c250ca0"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Contract Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5eb2610864190b08e4a51d41",
+            "required": false,
+            "group": "5eb260d564190b08e4a518a8",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Contract Start Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5eb2611664190b08e4a51eb6",
+            "required": false,
+            "group": "5eb260d564190b08e4a518a8",
+            "conditions": "",
+            "timePicker": false,
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "element": "input",
+            "type": "number",
+            "required": false,
+            "name": "Duration Value",
+            "id": "607d7717c300532a187b8fe2",
+            "separator": false,
+            "group": "5eb260d564190b08e4a518a8",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "element": "select",
+            "type": "manual",
+            "required": false,
+            "name": "Duration Type",
+            "id": "607d7739c300532a187b8fe3",
+            "options": [
+              [
+                "Day",
+                "day"
+              ],
+              [
+                "Month",
+                "month"
+              ],
+              [
+                "Year",
+                "year"
+              ]
+            ],
+            "emptyOption": true,
+            "allowMoreOptions": false,
+            "group": "5eb260d564190b08e4a518a8",
+            "date": 1630848188818
+          },
+          {
+            "element": "operation",
+            "direction": "ltr",
+            "type": "formula",
+            "required": false,
+            "name": "End Date Calculated",
+            "id": "5eb2612f64190b08e4a521bb",
+            "formula": "isAvailble(\n  getValue(\"5eb2611664190b08e4a51eb6\"),\n  getValue(\"607d7717c300532a187b8fe2\"),\n  getValue(\"607d7739c300532a187b8fe3\")\n) ? addToDate(\n  getValue(\"5eb2611664190b08e4a51eb6\"),\n  getValue(\"607d7717c300532a187b8fe2\"),\n  getValue(\"607d7739c300532a187b8fe3\")\n) : \"\"",
+            "group": "5eb260d564190b08e4a518a8",
+            "date": 1630848188818
+          },
+          {
+            "name": "Employer",
+            "element": "select",
+            "type": "sheet item",
+            "id": "5eb262dc57a85f253c24f4c0",
+            "required": false,
+            "sheet": "5eb25ef9b02d0c0bec581105",
+            "group": "5eb260e664190b08e4a51a73",
+            "allowMoreOptions": true,
+            "emptyOption": true,
+            "mixItems": true,
+            "itemFormat": "sheetItem",
+            "sheets": [
+              "5eb25e2c7d44c02724735099",
+              "5eb25ef9b02d0c0bec581105"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Contractor",
+            "element": "select",
+            "type": "sheet item",
+            "id": "5eb262ee57a85f253c24fa8d",
+            "required": false,
+            "sheet": "5eb25ef9b02d0c0bec581105",
+            "group": "5eb260e664190b08e4a51a73",
+            "allowMoreOptions": true,
+            "emptyOption": true,
+            "mixItems": true,
+            "itemFormat": "sheetItem",
+            "sheets": [
+              "5eb25e2c7d44c02724735099",
+              "5eb25ef9b02d0c0bec581105"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Adviser",
+            "element": "select",
+            "type": "sheet item",
+            "id": "5eb2630057a85f253c24ff11",
+            "required": false,
+            "sheet": "5eb25ef9b02d0c0bec581105",
+            "group": "5eb260e664190b08e4a51a73",
+            "allowMoreOptions": true,
+            "emptyOption": true,
+            "mixItems": true,
+            "itemFormat": "sheetItem",
+            "sheets": [
+              "5eb25e2c7d44c02724735099",
+              "5eb25ef9b02d0c0bec581105"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Employer Agent",
+            "element": "select",
+            "type": "sheet item",
+            "id": "5eb2631157a85f253c250483",
+            "required": false,
+            "sheet": "5eb25e2c7d44c02724735099",
+            "group": "5eb260e664190b08e4a51a73",
+            "allowMoreOptions": true,
+            "emptyOption": true,
+            "mixItems": false,
+            "date": 1630848188818
+          },
+          {
+            "name": "Contractor Agent",
+            "element": "select",
+            "type": "sheet item",
+            "id": "5eb2632257a85f253c250885",
+            "required": false,
+            "sheet": "5eb25e2c7d44c02724735099",
+            "group": "5eb260e664190b08e4a51a73",
+            "allowMoreOptions": true,
+            "emptyOption": true,
+            "mixItems": false,
+            "date": 1630848188818
+          },
+          {
+            "name": "Adviser Agent",
+            "element": "select",
+            "type": "sheet item",
+            "id": "5eb2633257a85f253c250ca0",
+            "required": false,
+            "sheet": "5eb25e2c7d44c02724735099",
+            "group": "5eb260e664190b08e4a51a73",
+            "allowMoreOptions": true,
+            "emptyOption": true,
+            "mixItems": false,
+            "date": 1630848188818
+          },
+          {
+            "name": "Financial",
+            "element": "group",
+            "type": "accordion",
+            "id": "5eb2638257a85f253c251520",
+            "required": false,
+            "collapse": false,
+            "values": [
+              "5eb263a257a85f253c251a6b",
+              "5eb6b8e039a3c50b9c6175f8",
+              "5eb5022607f0161c1c39aae4",
+              "5eb5023c07f0161c1c39b121",
+              "5eb5024c07f0161c1c39b3dd",
+              "5eb502b607f0161c1c39bb52"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Initial Contract Cost",
+            "element": "input",
+            "type": "number",
+            "id": "5eb263a257a85f253c251a6b",
+            "required": false,
+            "group": "5eb2638257a85f253c251520",
+            "conditions": "",
+            "separator": true,
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Contract Cost Calculated",
+            "element": "operation",
+            "direction": "ltr",
+            "type": "formula",
+            "id": "5eb6b8e039a3c50b9c6175f8",
+            "required": false,
+            "formula": "calc(getColumn(\"5eb54cc0a927490ae8c29ace\",9),\"total\") + getValue(\"5eb263a257a85f253c251a6b\")",
+            "group": "5eb2638257a85f253c251520",
+            "separator": true,
+            "date": 1630848188818
+          },
+          {
+            "name": "Deductions / Additions",
+            "element": "group",
+            "type": "accordion",
+            "id": "5eb263cc57a85f253c251eef",
+            "required": false,
+            "collapse": true,
+            "values": [
+              "5eb2641157a85f253c25247c",
+              "5eb2646357a85f253c252b22"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Deductions",
+            "element": "table",
+            "type": "schema",
+            "id": "5eb2641157a85f253c25247c",
+            "required": false,
+            "counter": true,
+            "schemas": [
+              {
+                "name": "Name",
+                "align": "center",
+                "element": "input",
+                "type": "text",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aeea"
+              },
+              {
+                "name": "Value",
+                "align": "center",
+                "element": "input",
+                "type": "number",
+                "direction": "ltr",
+                "total": "",
+                "separator": true,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aeeb"
+              },
+              {
+                "name": "Mode",
+                "align": "center",
+                "element": "select",
+                "type": "manual",
+                "options": [
+                  [
+                    "Dollar",
+                    "dollar"
+                  ],
+                  [
+                    "Percentage",
+                    "percentage"
+                  ]
+                ],
+                "allowMoreOptions": false,
+                "emptyOption": false,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aeec"
+              }
+            ],
+            "group": "5eb263cc57a85f253c251eef",
+            "layout": "table",
+            "mix": false,
+            "date": 1630848188818
+          },
+          {
+            "name": "Additions",
+            "element": "table",
+            "type": "schema",
+            "id": "5eb2646357a85f253c252b22",
+            "required": false,
+            "counter": true,
+            "schemas": [
+              {
+                "name": "Name",
+                "align": "center",
+                "element": "input",
+                "type": "text",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aeed"
+              },
+              {
+                "name": "Value",
+                "align": "center",
+                "element": "input",
+                "type": "number",
+                "direction": "ltr",
+                "total": "off",
+                "separator": true,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aeee"
+              },
+              {
+                "name": "Mode",
+                "align": "center",
+                "element": "select",
+                "type": "manual",
+                "options": [
+                  [
+                    "Dollar",
+                    "dollar"
+                  ],
+                  [
+                    "Percentage",
+                    "percentage"
+                  ]
+                ],
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aeef"
+              }
+            ],
+            "group": "5eb263cc57a85f253c251eef",
+            "layout": "table",
+            "mix": false,
+            "date": 1630848188818
+          },
+          {
+            "name": "Land Assignment",
+            "element": "group",
+            "type": "accordion",
+            "id": "5eb2651f57a85f253c2536f9",
+            "required": false,
+            "collapse": true,
+            "values": [
+              "5eb5033107f0161c1c39cafd",
+              "5eb5034207f0161c1c39ce0a",
+              "5eb5036307f0161c1c39d120",
+              "5eb5037507f0161c1c39d43f",
+              "5eb503a907f0161c1c39d767"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "General / Private Conditions",
+            "element": "group",
+            "type": "accordion",
+            "id": "5eb2655957a85f253c254691",
+            "required": false,
+            "collapse": true,
+            "values": [
+              "5eb2657957a85f253c254e26",
+              "5eb2658d57a85f253c255175"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "General Conditions",
+            "element": "input",
+            "type": "textarea",
+            "id": "5eb2657957a85f253c254e26",
+            "required": false,
+            "group": "5eb2655957a85f253c254691",
+            "date": 1630848188818
+          },
+          {
+            "name": "Private Conditions",
+            "element": "input",
+            "type": "textarea",
+            "id": "5eb2658d57a85f253c255175",
+            "required": false,
+            "group": "5eb2655957a85f253c254691",
+            "date": 1630848188818
+          },
+          {
+            "name": "Contract Location",
+            "element": "input",
+            "type": "text",
+            "id": "5eb5015707f0161c1c39a0a2",
+            "required": false,
+            "group": "5eb260d564190b08e4a518a8",
+            "date": 1630848188818
+          },
+          {
+            "name": "Contract Row",
+            "element": "input",
+            "type": "text",
+            "id": "5eb501ac07f0161c1c39a325",
+            "required": false,
+            "group": "5eb260d564190b08e4a518a8",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Workshop Code",
+            "element": "input",
+            "type": "text",
+            "id": "5eb501cc07f0161c1c39a5b1",
+            "required": false,
+            "group": "5eb260d564190b08e4a518a8",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Guarantee Period",
+            "element": "input",
+            "type": "text",
+            "id": "5eb501df07f0161c1c39a846",
+            "required": false,
+            "group": "5eb260d564190b08e4a518a8",
+            "date": 1630848188818
+          },
+          {
+            "name": "Letter ID",
+            "element": "input",
+            "type": "text",
+            "id": "5eb5022607f0161c1c39aae4",
+            "required": false,
+            "group": "5eb2638257a85f253c251520",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Letter Date",
+            "element": "input",
+            "type": "date",
+            "id": "5eb5023c07f0161c1c39b121",
+            "required": false,
+            "group": "5eb2638257a85f253c251520",
+            "mode": "single",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Prepayment Value",
+            "element": "input",
+            "type": "number",
+            "id": "5eb5024c07f0161c1c39b3dd",
+            "required": false,
+            "group": "5eb2638257a85f253c251520",
+            "conditions": "",
+            "separator": true,
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Prepayment Type",
+            "element": "select",
+            "type": "manual",
+            "id": "5eb502b607f0161c1c39bb52",
+            "required": false,
+            "options": [
+              [
+                "Dollar",
+                "dollar"
+              ],
+              [
+                "Percentage",
+                "percentage"
+              ]
+            ],
+            "group": "5eb2638257a85f253c251520",
+            "date": 1630848188818
+          },
+          {
+            "name": "Descriptions",
+            "element": "input",
+            "type": "textarea",
+            "id": "5eb502f107f0161c1c39c20d",
+            "required": false,
+            "group": "5eb260d564190b08e4a518a8",
+            "date": 1630848188818
+          },
+          {
+            "name": "Invitation Number",
+            "element": "input",
+            "type": "text",
+            "id": "5eb5033107f0161c1c39cafd",
+            "required": false,
+            "group": "5eb2651f57a85f253c2536f9",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Invitation Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5eb5034207f0161c1c39ce0a",
+            "required": false,
+            "group": "5eb2651f57a85f253c2536f9",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Communicate Number",
+            "element": "input",
+            "type": "text",
+            "id": "5eb5036307f0161c1c39d120",
+            "required": false,
+            "group": "5eb2651f57a85f253c2536f9",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Communicate Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5eb5037507f0161c1c39d43f",
+            "required": false,
+            "group": "5eb2651f57a85f253c2536f9",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Delivery Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5eb503a907f0161c1c39d767",
+            "required": false,
+            "group": "5eb2651f57a85f253c2536f9",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "More",
+            "element": "group",
+            "type": "float modal",
+            "id": "5eb50d44e0c8f42098fc4872",
+            "required": false,
+            "width": "30",
+            "removePanelOnHide": false,
+            "group": "5eb511d7e0c8f42098fd45b7",
+            "values": [
+              "5eb50d62e0c8f42098fc518e"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "more container",
+            "element": "group",
+            "type": "container",
+            "id": "5eb50d62e0c8f42098fc518e",
+            "required": false,
+            "display": "vertical",
+            "displayName": false,
+            "border": false,
+            "group": "5eb50d44e0c8f42098fc4872",
+            "values": [
+              "5eb50de5e0c8f42098fc5ace",
+              "5eb50ef9e0c8f42098fc7905",
+              "5eb51006e0c8f42098fcc9d1",
+              "5eb51045e0c8f42098fcd4c1",
+              "5eb51098e0c8f42098fcdfd5",
+              "5eb510f9e0c8f42098fcf851"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Temporary Handover",
+            "element": "group",
+            "type": "float modal",
+            "id": "5eb50de5e0c8f42098fc5ace",
+            "required": false,
+            "removePanelOnHide": true,
+            "width": "70",
+            "group": "5eb50d62e0c8f42098fc518e",
+            "values": [
+              "5eb519b4e0c8f42098fdaf60",
+              "5eb519c2e0c8f42098fdb627",
+              "5efc95a142cb9a2924f4a994",
+              "5eb51a42e0c8f42098fdc61a",
+              "5eb51a6de0c8f42098fdcf4d",
+              "5eb51a7ae0c8f42098fdd63e",
+              "5eb51acfe0c8f42098fdeb45"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Final Handover",
+            "element": "group",
+            "type": "float modal",
+            "id": "5eb50ef9e0c8f42098fc7905",
+            "required": false,
+            "removePanelOnHide": true,
+            "width": "70",
+            "group": "5eb50d62e0c8f42098fc518e",
+            "values": [
+              "5efc8e33b6c53b191003f1b9",
+              "5efc95320fb07a03bc8d4c48",
+              "5eb51a34e0c8f42098fdbf3e",
+              "5efc95d40bce090d44e41cfa",
+              "5efc96012481d01664ad293b",
+              "5efc962325d9a6118c8e4318",
+              "5efc96498913b0032852b9bf"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Extend Contract",
+            "element": "group",
+            "type": "float modal",
+            "id": "5eb51006e0c8f42098fcc9d1",
+            "required": false,
+            "removePanelOnHide": true,
+            "width": "70",
+            "group": "5eb50d62e0c8f42098fc518e",
+            "values": [
+              "5eb51cdfe0c8f42098fe0c9b"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Suspend Contract",
+            "element": "group",
+            "type": "float modal",
+            "id": "5eb51045e0c8f42098fcd4c1",
+            "required": false,
+            "removePanelOnHide": true,
+            "width": "70",
+            "group": "5eb50d62e0c8f42098fc518e",
+            "values": [
+              "5eb51d96e0c8f42098fe2c3f"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Increase Contract",
+            "element": "group",
+            "type": "float modal",
+            "id": "5eb51098e0c8f42098fcdfd5",
+            "required": false,
+            "removePanelOnHide": true,
+            "width": "70",
+            "group": "5eb50d62e0c8f42098fc518e",
+            "values": [
+              "5eb54cc0a927490ae8c29ace"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Terminate Contract",
+            "element": "group",
+            "type": "float modal",
+            "id": "5eb510f9e0c8f42098fcf851",
+            "required": false,
+            "removePanelOnHide": true,
+            "width": "70",
+            "group": "5eb50d62e0c8f42098fc518e",
+            "values": [
+              "5eb54de0a927490ae8c2d4b1",
+              "5eb54df1a927490ae8c2dcbc",
+              "5eb54e7aa927490ae8c2e4d0",
+              "5eb54e93a927490ae8c2efa3"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "container",
+            "element": "group",
+            "type": "container",
+            "id": "5eb511d7e0c8f42098fd45b7",
+            "required": false,
+            "display": "horizontal",
+            "displayName": false,
+            "border": false,
+            "values": [
+              "5eb50d44e0c8f42098fc4872"
+            ],
+            "date": 1630848188818
+          },
+          {
+            "name": "Contractor Request ID",
+            "element": "input",
+            "type": "text",
+            "id": "5eb519b4e0c8f42098fdaf60",
+            "required": false,
+            "group": "5eb50de5e0c8f42098fc5ace",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Contractor Request Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5eb519c2e0c8f42098fdb627",
+            "required": false,
+            "group": "5eb50de5e0c8f42098fc5ace",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Adviser Accept ID",
+            "element": "input",
+            "type": "text",
+            "id": "5efc95a142cb9a2924f4a994",
+            "required": false,
+            "group": "5eb50de5e0c8f42098fc5ace",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Adviser Accept Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5eb51a42e0c8f42098fdc61a",
+            "required": false,
+            "group": "5eb50de5e0c8f42098fc5ace",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Employer Communicate ID",
+            "element": "input",
+            "type": "text",
+            "id": "5eb51a6de0c8f42098fdcf4d",
+            "required": false,
+            "group": "5eb50de5e0c8f42098fc5ace",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Employer Communicate Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5eb51a7ae0c8f42098fdd63e",
+            "required": false,
+            "group": "5eb50de5e0c8f42098fc5ace",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Temporary Handover Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5eb51acfe0c8f42098fdeb45",
+            "required": false,
+            "group": "5eb50de5e0c8f42098fc5ace",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Contractor Request ID",
+            "element": "input",
+            "type": "text",
+            "id": "5efc8e33b6c53b191003f1b9",
+            "required": false,
+            "group": "5eb50ef9e0c8f42098fc7905",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Contractor Request Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5efc95320fb07a03bc8d4c48",
+            "required": false,
+            "group": "5eb50ef9e0c8f42098fc7905",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Adviser Accept ID",
+            "element": "input",
+            "type": "text",
+            "id": "5eb51a34e0c8f42098fdbf3e",
+            "required": false,
+            "group": "5eb50ef9e0c8f42098fc7905",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Adviser Accept Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5efc95d40bce090d44e41cfa",
+            "required": false,
+            "group": "5eb50ef9e0c8f42098fc7905",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Employer Communicate ID",
+            "element": "input",
+            "type": "text",
+            "id": "5efc96012481d01664ad293b",
+            "required": false,
+            "group": "5eb50ef9e0c8f42098fc7905",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Employer Communicate Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5efc962325d9a6118c8e4318",
+            "required": false,
+            "group": "5eb50ef9e0c8f42098fc7905",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Final Handover Date",
+            "element": "input",
+            "type": "date",
+            "mode": "single",
+            "id": "5efc96498913b0032852b9bf",
+            "required": false,
+            "group": "5eb50ef9e0c8f42098fc7905",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Extend Duration",
+            "element": "table",
+            "type": "schema",
+            "id": "5eb51cdfe0c8f42098fe0c9b",
+            "required": false,
+            "counter": false,
+            "layout": "tab",
+            "schemas": [
+              {
+                "name": "Contractor Request ID",
+                "align": "center",
+                "element": "input",
+                "type": "text",
+                "direction": "ltr",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aef0"
+              },
+              {
+                "name": "Contractor Request Date",
+                "align": "center",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "mode": "single",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aef1"
+              },
+              {
+                "name": "Adviser Accept ID",
+                "align": "center",
+                "element": "input",
+                "type": "text",
+                "direction": "ltr",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aef2"
+              },
+              {
+                "name": "Adviser Accept Date",
+                "align": "center",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "mode": "single",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aef3"
+              },
+              {
+                "name": "Employer Communicate ID",
+                "align": "center",
+                "element": "input",
+                "type": "text",
+                "direction": "ltr",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aef4"
+              },
+              {
+                "name": "Employer Communicate Date",
+                "align": "center",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "mode": "single",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aef5"
+              },
+              {
+                "name": "Start Date",
+                "align": "center",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "mode": "single",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aef6"
+              },
+              {
+                "name": "Duration Value",
+                "align": "center",
+                "element": "input",
+                "type": "number",
+                "direction": "ltr",
+                "total": "off",
+                "separator": true,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aef7"
+              },
+              {
+                "name": "Duration Type",
+                "align": "center",
+                "element": "select",
+                "type": "manual",
+                "options": [
+                  [
+                    "Day",
+                    "day"
+                  ],
+                  [
+                    "Month",
+                    "month"
+                  ],
+                  [
+                    "Year",
+                    "year"
+                  ]
+                ],
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aef8"
+              },
+              {
+                "name": "Extension Type",
+                "align": "center",
+                "element": "select",
+                "type": "manual",
+                "options": [
+                  [
+                    "Extend",
+                    "extend"
+                  ],
+                  [
+                    "Reduce",
+                    "reduce"
+                  ]
+                ],
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aef9"
+              }
+            ],
+            "group": "5eb51006e0c8f42098fcc9d1",
+            "mix": false,
+            "date": 1630848188818
+          },
+          {
+            "name": "Suspend",
+            "element": "table",
+            "type": "schema",
+            "id": "5eb51d96e0c8f42098fe2c3f",
+            "required": false,
+            "counter": false,
+            "layout": "tab",
+            "schemas": [
+              {
+                "name": "Contractor Request ID",
+                "align": "center",
+                "element": "input",
+                "type": "text",
+                "direction": "ltr",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aefa"
+              },
+              {
+                "name": "Contractor Request Date",
+                "align": "center",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "mode": "single",
+                "required": false,
+                "timePicker": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aefb"
+              },
+              {
+                "name": "Adviser Accept ID",
+                "align": "center",
+                "element": "input",
+                "type": "text",
+                "direction": "ltr",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aefc"
+              },
+              {
+                "name": "Adviser Accept Date",
+                "align": "center",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "mode": "single",
+                "required": false,
+                "timePicker": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aefd"
+              },
+              {
+                "name": "Employer Communicate ID",
+                "align": "center",
+                "element": "input",
+                "type": "text",
+                "direction": "ltr",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aefe"
+              },
+              {
+                "name": "Employer Communicate Date",
+                "align": "center",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "mode": "single",
+                "required": false,
+                "timePicker": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1aeff"
+              },
+              {
+                "name": "Start Date",
+                "align": "center",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "mode": "single",
+                "required": false,
+                "timePicker": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af00"
+              },
+              {
+                "name": "Duration Value",
+                "align": "center",
+                "element": "input",
+                "type": "number",
+                "direction": "ltr",
+                "total": "",
+                "separator": true,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af01"
+              },
+              {
+                "name": "Duration Type",
+                "align": "center",
+                "element": "select",
+                "type": "manual",
+                "options": [
+                  [
+                    "Day",
+                    "day"
+                  ],
+                  [
+                    "Month",
+                    "month"
+                  ],
+                  [
+                    "Year",
+                    "year"
+                  ]
+                ],
+                "allowMoreOptions": false,
+                "emptyOption": false,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af02"
+              }
+            ],
+            "group": "5eb51045e0c8f42098fcd4c1",
+            "mix": false,
+            "date": 1630848188818
+          },
+          {
+            "name": "Increase",
+            "element": "table",
+            "type": "schema",
+            "id": "5eb54cc0a927490ae8c29ace",
+            "required": false,
+            "counter": false,
+            "layout": "tab",
+            "schemas": [
+              {
+                "name": "Contractor Request ID",
+                "element": "input",
+                "type": "text",
+                "direction": "ltr",
+                "required": false,
+                "align": "center",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af03"
+              },
+              {
+                "name": "Contractor Request Date",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "required": false,
+                "timePicker": false,
+                "mode": "single",
+                "align": "left",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af04"
+              },
+              {
+                "name": "Adviser Accept ID",
+                "element": "input",
+                "type": "text",
+                "direction": "ltr",
+                "required": false,
+                "align": "left",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af05"
+              },
+              {
+                "name": "Adviser Accept Date",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "required": false,
+                "timePicker": false,
+                "mode": "single",
+                "align": "left",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af06"
+              },
+              {
+                "name": "Employer Communicate ID",
+                "element": "input",
+                "type": "text",
+                "required": false,
+                "direction": "ltr",
+                "align": "left",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af07"
+              },
+              {
+                "name": "Employer Communicate Date",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "required": false,
+                "timePicker": false,
+                "mode": "single",
+                "align": "left",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af08"
+              },
+              {
+                "name": "Value",
+                "element": "input",
+                "type": "number",
+                "direction": "ltr",
+                "required": false,
+                "separator": true,
+                "align": "left",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af09"
+              },
+              {
+                "name": "Type",
+                "element": "select",
+                "type": "manual",
+                "required": false,
+                "allowMoreOptions": false,
+                "emptyOption": false,
+                "options": [
+                  [
+                    "Dollar",
+                    "dollar"
+                  ],
+                  [
+                    "Percentage",
+                    "percentage"
+                  ]
+                ],
+                "align": "left",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af0a"
+              },
+              {
+                "name": "Increase Type",
+                "element": "select",
+                "type": "manual",
+                "required": false,
+                "allowMoreOptions": false,
+                "emptyOption": false,
+                "options": [
+                  [
+                    "Extend",
+                    "extend"
+                  ],
+                  [
+                    "Reduce",
+                    "reduce"
+                  ]
+                ],
+                "align": "left",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af0b"
+              },
+              {
+                "name": "Result",
+                "element": "operation",
+                "direction": "ltr",
+                "type": "formula",
+                "required": false,
+                "formula": "(isEqual(getValue(self.parent,self.row,8),\"reduce\") ? -1:1) * (isEqual(getValue(self.parent,self.row,7),\"percentage\")? getValue(\"5eb263a257a85f253c251a6b\") * getValue(self.parent,self.row,6) / 100 : getValue(self.parent,self.row,6))",
+                "separator": true,
+                "align": "left",
+                "total": "sum",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af0c"
+              }
+            ],
+            "group": "5eb51098e0c8f42098fcdfd5",
+            "mix": false,
+            "date": 1630848188818
+          },
+          {
+            "name": "Terminate Employer Letter ID",
+            "element": "input",
+            "type": "text",
+            "id": "5eb54de0a927490ae8c2d4b1",
+            "required": false,
+            "group": "5eb510f9e0c8f42098fcf851",
+            "direction": "ltr",
+            "date": 1630848188818
+          },
+          {
+            "name": "Terminate Employer Letter Date",
+            "element": "input",
+            "type": "text",
+            "id": "5eb54df1a927490ae8c2dcbc",
+            "required": false,
+            "group": "5eb510f9e0c8f42098fcf851",
+            "date": 1630848188818
+          },
+          {
+            "name": "Terminate Reason",
+            "element": "select",
+            "type": "manual",
+            "id": "5eb54e7aa927490ae8c2e4d0",
+            "required": false,
+            "options": [
+              [
+                "TERMINATE_REASON_ONE",
+                "reason 1"
+              ],
+              [
+                "TERMINATE_REASON_TWO",
+                "reason 2"
+              ],
+              [
+                "TERMINATE_REASON_THREE",
+                "reason 3"
+              ]
+            ],
+            "group": "5eb510f9e0c8f42098fcf851",
+            "allowMoreOptions": true,
+            "emptyOption": true,
+            "date": 1630848188818
+          },
+          {
+            "name": "Descriptions",
+            "element": "input",
+            "type": "textarea",
+            "id": "5eb54e93a927490ae8c2efa3",
+            "required": false,
+            "group": "5eb510f9e0c8f42098fcf851",
+            "date": 1630848188818
+          }
+        ],
+        "descriptions": "",
+        "itemName": true,
+        "items": [
+          {
+            "id": "60c8ad2858163f31edd4e375",
+            "name": {
+              "5eb260ba64190b08e4a514d8": "a"
+            },
+            "date": 1623764264058,
+            "values": {
+              "5eb260ba64190b08e4a514d8": "a",
+              "5eb2612f64190b08e4a521bb": ""
+            },
+            "descriptions": ""
+          }
+        ]
+      },
+      {
+        "id": "5eb265de57a85f253c255cbc",
+        "name": "Suretybonds",
+        "itemFormat": "element",
+        "date": 1630848188818,
+        "schemas": [
+          {
+            "name": "Contract",
+            "element": "select",
+            "type": "connection sheet item",
+            "id": "5eb265de57a85f253c255cbb",
+            "required": true,
+            "sheet": "5eb260ba64190b08e4a514d9",
+            "itemName": true,
+            "allowMoreOptions": true,
+            "emptyOption": true,
+            "date": 1630848188818
+          },
+          {
+            "name": "Bank Suretybonds",
+            "element": "table",
+            "type": "schema",
+            "id": "5eb4eeb8d7a42b281cef8cc3",
+            "required": false,
+            "counter": false,
+            "layout": "tab",
+            "schemas": [
+              {
+                "name": "Issuing Bank",
+                "align": "left",
+                "element": "input",
+                "type": "text",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af0d"
+              },
+              {
+                "name": "Branch",
+                "align": "left",
+                "element": "input",
+                "type": "text",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af0e"
+              },
+              {
+                "name": "Account Number",
+                "align": "left",
+                "element": "input",
+                "type": "text",
+                "direction": "ltr",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af0f"
+              },
+              {
+                "name": "Letter Number",
+                "align": "left",
+                "element": "input",
+                "type": "text",
+                "direction": "ltr",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af10"
+              },
+              {
+                "name": "Committed Name",
+                "align": "left",
+                "element": "input",
+                "type": "text",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af11"
+              },
+              {
+                "name": "Interested Name",
+                "align": "left",
+                "element": "input",
+                "type": "text",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af12"
+              },
+              {
+                "name": "Cost",
+                "align": "left",
+                "element": "input",
+                "type": "number",
+                "direction": "ltr",
+                "total": "",
+                "separator": true,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af13"
+              },
+              {
+                "name": "Issue Date",
+                "align": "left",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "mode": "single",
+                "required": false,
+                "timePicker": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af14"
+              },
+              {
+                "name": "Expiration Date",
+                "align": "left",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "mode": "single",
+                "required": false,
+                "timePicker": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af15"
+              },
+              {
+                "name": "Suretybond Type",
+                "align": "left",
+                "element": "select",
+                "type": "manual",
+                "options": [
+                  [
+                    "Job Process",
+                    "Job Process"
+                  ],
+                  [
+                    "Performance Obligation",
+                    "Performance Obligations"
+                  ],
+                  [
+                    "Performance Guarantee",
+                    "Guarantee Of Performance"
+                  ],
+                  [
+                    "Performance Withholding",
+                    "Performance Withholding"
+                  ],
+                  [
+                    "Prepayment",
+                    "Prepayment"
+                  ],
+                  [
+                    "Customs",
+                    "Customs"
+                  ],
+                  [
+                    "Payment Obligations",
+                    "Payment Obligations"
+                  ],
+                  [
+                    "Other",
+                    "Other"
+                  ]
+                ],
+                "allowMoreOptions": false,
+                "emptyOption": false,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af16"
+              }
+            ],
+            "mix": false,
+            "date": 1630848188818
+          },
+          {
+            "name": "Promissory Note",
+            "element": "table",
+            "type": "schema",
+            "required": false,
+            "id": "5eb4eee1d7a42b281cef8d0a",
+            "counter": false,
+            "layout": "tab",
+            "schemas": [
+              {
+                "name": "Serial Number",
+                "align": "left",
+                "element": "input",
+                "type": "text",
+                "direction": "ltr",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af17"
+              },
+              {
+                "name": "Payment Place",
+                "align": "left",
+                "element": "input",
+                "type": "text",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af18"
+              },
+              {
+                "name": "Letter Number",
+                "align": "left",
+                "element": "input",
+                "type": "text",
+                "direction": "ltr",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af19"
+              },
+              {
+                "name": "Committed Name",
+                "align": "left",
+                "element": "input",
+                "type": "text",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af1a"
+              },
+              {
+                "name": "Interested Name",
+                "align": "left",
+                "element": "input",
+                "type": "text",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af1b"
+              },
+              {
+                "name": "Cost",
+                "align": "left",
+                "element": "input",
+                "type": "number",
+                "direction": "ltr",
+                "total": "",
+                "separator": true,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af1c"
+              },
+              {
+                "name": "Issue Date",
+                "align": "left",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "mode": "single",
+                "required": false,
+                "timePicker": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af1d"
+              },
+              {
+                "name": "Expiration Date",
+                "align": "left",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "mode": "single",
+                "required": false,
+                "timePicker": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af1e"
+              },
+              {
+                "name": "Suretybond Type",
+                "align": "left",
+                "element": "select",
+                "type": "manual",
+                "options": [
+                  [
+                    "Job Process",
+                    "Job Process"
+                  ],
+                  [
+                    "Performance Obligation",
+                    "Performance Obligations"
+                  ],
+                  [
+                    "Performance Guarantee",
+                    "Guarantee Of Performance"
+                  ],
+                  [
+                    "Performance Withholding",
+                    "Performance Withholding"
+                  ],
+                  [
+                    "Prepayment",
+                    "Prepayment"
+                  ],
+                  [
+                    "Customs",
+                    "Customs"
+                  ],
+                  [
+                    "Payment Obligations",
+                    "Payment Obligations"
+                  ],
+                  [
+                    "Other",
+                    "Other"
+                  ]
+                ],
+                "allowMoreOptions": false,
+                "emptyOption": true,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af1f"
+              }
+            ],
+            "mix": false,
+            "date": 1630848188818
+          }
+        ],
+        "items": [],
+        "descriptions": "",
+        "itemName": true
+      },
+      {
+        "id": "5eb2664e57a85f253c25699b",
+        "name": "Balancesheets",
+        "itemFormat": "element",
+        "date": 1630848188818,
+        "schemas": [
+          {
+            "name": "Contract",
+            "element": "select",
+            "type": "connection sheet item",
+            "id": "5eb2664e57a85f253c256999",
+            "required": true,
+            "sheet": "5eb260ba64190b08e4a514d9",
+            "itemName": true,
+            "allowMoreOptions": true,
+            "emptyOption": true,
+            "date": 1630848188818
+          },
+          {
+            "name": "Number",
+            "element": "input",
+            "type": "number",
+            "id": "5eb2664e57a85f253c25699a",
+            "direction": "ltr",
+            "required": true,
+            "itemName": true,
+            "date": 1630848188818
+          },
+          {
+            "name": "Received Date",
+            "element": "input",
+            "type": "date",
+            "direction": "ltr",
+            "mode": "single",
+            "id": "5eb2668b57a85f253c257faa",
+            "required": false,
+            "date": 1630848188818
+          },
+          {
+            "name": "Secretariat Number",
+            "element": "input",
+            "type": "text",
+            "id": "5eb2669457a85f253c258377",
+            "direction": "ltr",
+            "required": false,
+            "date": 1630848188818
+          },
+          {
+            "name": "Status",
+            "element": "select",
+            "type": "manual",
+            "id": "5eb266c957a85f253c25874d",
+            "required": false,
+            "options": [
+              [
+                "Under Review",
+                "under_reveiew"
+              ],
+              [
+                "Accepted",
+                "accepted"
+              ],
+              [
+                "Rejected",
+                "rejected"
+              ]
+            ],
+            "allowMoreOptions": false,
+            "date": 1630848188818
+          },
+          {
+            "name": "Contract Cost",
+            "element": "connection",
+            "type": "element",
+            "id": "5eb2676657a85f253c25c4fc",
+            "required": false,
+            "connectedSheet": "5eb260ba64190b08e4a514d9",
+            "connectedElement": "5eb6b8e039a3c50b9c6175f8",
+            "date": 1630848188818
+          },
+          {
+            "name": "Balancesheet Cost",
+            "element": "input",
+            "type": "number",
+            "id": "5eb266f857a85f253c259064",
+            "direction": "ltr",
+            "required": false,
+            "conditions": "",
+            "separator": true,
+            "date": 1630848188818
+          },
+          {
+            "name": "Adviser Accepted Cost",
+            "element": "input",
+            "type": "number",
+            "id": "5eb2670b57a85f253c25b3ca",
+            "direction": "ltr",
+            "required": false,
+            "conditions": "",
+            "separator": true,
+            "date": 1630848188818
+          },
+          {
+            "name": "Employer Accepted Cost",
+            "element": "input",
+            "type": "number",
+            "id": "5eb2672457a85f253c25bc52",
+            "direction": "ltr",
+            "required": false,
+            "conditions": "",
+            "separator": true,
+            "date": 1630848188818
+          },
+          {
+            "name": "Deductions",
+            "element": "table",
+            "type": "schema",
+            "id": "5eb2690057a85f253c25ec26",
+            "required": false,
+            "counter": true,
+            "schemas": [
+              {
+                "name": "Name",
+                "align": "center",
+                "element": "input",
+                "type": "text",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af20"
+              },
+              {
+                "name": "Value",
+                "align": "center",
+                "element": "input",
+                "type": "number",
+                "direction": "ltr",
+                "total": "",
+                "separator": true,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af21"
+              },
+              {
+                "name": "Mode",
+                "align": "center",
+                "element": "select",
+                "type": "manual",
+                "options": [
+                  [
+                    "Dollar",
+                    "dollar"
+                  ],
+                  [
+                    "Percentage",
+                    "percentage"
+                  ]
+                ],
+                "allowMoreOptions": false,
+                "emptyOption": false,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af22"
+              },
+              {
+                "name": "Result",
+                "align": "center",
+                "type": "formula",
+                "total": "sum",
+                "element": "operation",
+                "direction": "ltr",
+                "formula": "isEqual(\ngetValue(self.parent,self.row,2),\n\"percentage\"\n) ? \n  getValue(self.parent,self.row,1) * getValue(\"5eb2672457a85f253c25bc52\") / 100 : \n  getValue(self.parent,self.row,1) | 0",
+                "separator": true,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af23"
+              }
+            ],
+            "mix": true,
+            "sheet": "5eb260ba64190b08e4a514d9",
+            "layout": "table",
+            "date": 1630848188818
+          },
+          {
+            "name": "Additions",
+            "element": "table",
+            "type": "schema",
+            "id": "5eb2699057a85f253c260590",
+            "required": false,
+            "counter": true,
+            "schemas": [
+              {
+                "name": "Name",
+                "align": "center",
+                "element": "input",
+                "type": "text",
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af24"
+              },
+              {
+                "name": "Value",
+                "align": "center",
+                "element": "input",
+                "type": "number",
+                "direction": "ltr",
+                "total": "",
+                "separator": true,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af25"
+              },
+              {
+                "name": "Mode",
+                "align": "center",
+                "element": "select",
+                "type": "manual",
+                "options": [
+                  [
+                    "Dollar",
+                    "dollar"
+                  ],
+                  [
+                    "Percentage",
+                    "percentage"
+                  ]
+                ],
+                "allowMoreOptions": false,
+                "emptyOption": false,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af26"
+              },
+              {
+                "name": "Result",
+                "align": "center",
+                "element": "operation",
+                "direction": "ltr",
+                "type": "formula",
+                "total": "sum",
+                "formula": "isEqual(getValue(self.parent,self.row,2),\"percentage\") ?   getValue(self.parent,self.row,1) * getValue(\"5eb2672457a85f253c25bc52\") / 100 :   getValue(self.parent,self.row,1) | 0",
+                "separator": true,
+                "required": false,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af27"
+              }
+            ],
+            "mix": true,
+            "sheet": "5eb260ba64190b08e4a514d9",
+            "layout": "table",
+            "date": 1630848188818
+          },
+          {
+            "name": "Amount",
+            "element": "table",
+            "type": "schema",
+            "id": "5eb26a1557a85f253c2615f6",
+            "required": false,
+            "counter": true,
+            "schemas": [
+              {
+                "name": "Amount Date",
+                "align": "center",
+                "element": "input",
+                "type": "date",
+                "direction": "ltr",
+                "mode": "single",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af28"
+              },
+              {
+                "name": "Cheque ID",
+                "align": "center",
+                "element": "input",
+                "type": "text",
+                "direction": "ltr",
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af29"
+              },
+              {
+                "name": "Cheque Value",
+                "align": "center",
+                "element": "input",
+                "type": "number",
+                "total": "sum",
+                "direction": "ltr",
+                "separator": true,
+                "date": 1630848188818,
+                "id": "613755faf8815b5dfdf1af2a"
+              }
+            ],
+            "mix": true,
+            "sheet": "5eb260ba64190b08e4a514d9",
+            "layout": "table",
+            "date": 1630848188818
+          },
+          {
+            "name": "Payable",
+            "element": "operation",
+            "direction": "ltr",
+            "type": "formula",
+            "id": "5eb26a7057a85f253c26235c",
+            "required": false,
+            "formula": "getValue(\"5eb2672457a85f253c25bc52\")- calc(getColumn(\"5eb2690057a85f253c25ec26\",3),\"total\")+calc(getColumn(\"5eb2699057a85f253c260590\",3),\"total\")-calc(getColumn(\"5eb26a1557a85f253c2615f6\",2),\"total\")",
+            "separator": true,
+            "date": 1630848188818
+          }
+        ],
+        "items": [],
+        "descriptions": "",
+        "itemName": true
+      }
+    ],
+    "descriptions": "",
+    "variables": {
+      "en": [],
+      "fa": [
+        [
+          "Contract Managment",
+          "مدیریت قرارداد"
+        ],
+        [
+          "Persons",
+          "اشخاص"
+        ],
+        [
+          "Global",
+          "عمومی"
+        ],
+        [
+          "Name",
+          "نام"
+        ],
+        [
+          "Family",
+          "نام خانوادگی"
+        ],
+        [
+          "Age",
+          "سن"
+        ],
+        [
+          "Gender",
+          "جنسیت"
+        ],
+        [
+          "National Number",
+          "شماره ملی"
+        ],
+        [
+          "Postal Code",
+          "کد پستی"
+        ],
+        [
+          "Phone",
+          "تلفن"
+        ],
+        [
+          "Fax",
+          "فکس"
+        ],
+        [
+          "Social",
+          "اجتماعی"
+        ],
+        [
+          "Male",
+          "مرد"
+        ],
+        [
+          "Female",
+          "زن"
+        ],
+        [
+          "Email",
+          "ایمیل"
+        ],
+        [
+          "Website",
+          "سایت"
+        ],
+        [
+          "Birthday",
+          "تاریخ تولد"
+        ],
+        [
+          "Marital Status",
+          "وضعیت تاهل"
+        ],
+        [
+          "Single",
+          "مجرد"
+        ],
+        [
+          "Married",
+          "متاهل"
+        ],
+        [
+          "ID",
+          "شماره شناسنامه"
+        ],
+        [
+          "Address",
+          "آدرس"
+        ],
+        [
+          "Work",
+          "محل کار"
+        ],
+        [
+          "Corporation",
+          "شرکت"
+        ],
+        [
+          "Corporations",
+          "شرکت ها"
+        ],
+        [
+          "CEO",
+          "مدیر عامل"
+        ],
+        [
+          "Registration Number",
+          "شماه ثبت"
+        ],
+        [
+          "Establishment Date",
+          "تاریخ تاسیس"
+        ],
+        [
+          "Activity Type",
+          "نوع فعالیت"
+        ],
+        [
+          "Accounting",
+          "حسابداری"
+        ],
+        [
+          "Airlines Aviation",
+          "هواپیمایی"
+        ],
+        [
+          "Alternative Dispute Resolution",
+          "حل اختلاف"
+        ],
+        [
+          "Alternative Medicine",
+          "طب جایگزین"
+        ],
+        [
+          "Animation",
+          "انیمیشن"
+        ],
+        [
+          "Apparel And Fashion",
+          "پوشاک و مد"
+        ],
+        [
+          "Architecture And Planning",
+          "معماری و برنامه ریزی"
+        ],
+        [
+          "Arts And Crafts",
+          "هنر و صنایع دستی"
+        ],
+        [
+          "Automotive",
+          "اتومبیل"
+        ],
+        [
+          "Aviation And Aerospace",
+          "هواپیمایی و هوا فضا"
+        ],
+        [
+          "Banking",
+          "بانکداری"
+        ],
+        [
+          "Biotechnology",
+          "بیوتکنولوژی"
+        ],
+        [
+          "Broadcast Media",
+          "پخش و رسانه"
+        ],
+        [
+          "Building Materials",
+          "مصالح ساختمانی"
+        ],
+        [
+          "Business Supplies And Equipment",
+          "تجهیزات و تجهیزات تجاری"
+        ],
+        [
+          "Capital Markets",
+          "بازارهای سرمایه"
+        ],
+        [
+          "Chemicals",
+          "مواد شیمیایی"
+        ],
+        [
+          "Civic And Social Organization",
+          "سازمان مدنی و اجتماعی"
+        ],
+        [
+          "Civil Engineering",
+          "مهندسی عمران"
+        ],
+        [
+          "Commercial Real Estate",
+          "املاک و مستغلات تجاری"
+        ],
+        [
+          "Computer And Network Security",
+          "امنیت رایانه و شبکه"
+        ],
+        [
+          "Computer Games",
+          "بازی های کامپیوتری"
+        ],
+        [
+          "Computer Hardware",
+          "سخت افزار کامپیوتر"
+        ],
+        [
+          "Computer Networking",
+          "شبکه های رایانه ای"
+        ],
+        [
+          "Computer Software",
+          "نرم افزار کامپیوتر"
+        ],
+        [
+          "Construction",
+          "ساخت و ساز"
+        ],
+        [
+          "Consumer Electronics",
+          "الکترونیک مصرفی"
+        ],
+        [
+          "Consumer Goods",
+          "کالاهای مصرفی"
+        ],
+        [
+          "Consumer Services",
+          "خدمات مصرف کننده"
+        ],
+        [
+          "Cosmetics",
+          "لوازم آرایشی"
+        ],
+        [
+          "Dairy",
+          "لبنیات"
+        ],
+        [
+          "Defense And Space",
+          "دفاع و فضا"
+        ],
+        [
+          "Design",
+          "طراحی"
+        ],
+        [
+          "Education Management",
+          "مدیریت آموزشی"
+        ],
+        [
+          "E Learning",
+          "یادگیری الکترونیکی"
+        ],
+        [
+          "Electrical And Electronic Manufacturing",
+          "تولید برق و الکترونیکی"
+        ],
+        [
+          "Entertainment",
+          "سرگرمی"
+        ],
+        [
+          "Environmental Services",
+          "خدمات محیطی"
+        ],
+        [
+          "Events Services",
+          "خدمات رویدادها"
+        ],
+        [
+          "Executive Office",
+          "دفتر اجرایی"
+        ],
+        [
+          "Facilities Services",
+          "خدمات تسهیلات"
+        ],
+        [
+          "Farming",
+          "کشاورزی"
+        ],
+        [
+          "Financial Services",
+          "خدمات مالی"
+        ],
+        [
+          "Fine Art",
+          "هنر زیبا"
+        ],
+        [
+          "Fishery",
+          "شیلات"
+        ],
+        [
+          "Food And Beverages",
+          "غذا و نوشیدنی"
+        ],
+        [
+          "Food Production",
+          "تولید غذا"
+        ],
+        [
+          "Fundraising",
+          "جذب سرمایه"
+        ],
+        [
+          "Furniture",
+          "مبلمان"
+        ],
+        [
+          "Gambling And Casinos",
+          "قمار و کازینو"
+        ],
+        [
+          "Glass Ceramics And Concrete",
+          "شیشه ، سرامیک و بتن"
+        ],
+        [
+          "Government Administration",
+          "مدیریت دولتی"
+        ],
+        [
+          "Government Relations",
+          "روابط دولت"
+        ],
+        [
+          "Graphic Design",
+          "طراحی گرافیک"
+        ],
+        [
+          "Health Wellness And Fitness",
+          "سلامتی ، سلامتی و تناسب اندام"
+        ],
+        [
+          "Higher Education",
+          "آموزش عالی"
+        ],
+        [
+          "Hospital And Health Care",
+          "بیمارستان و مراقبت های بهداشتی"
+        ],
+        [
+          "Hospitality",
+          "مهمان نوازی"
+        ],
+        [
+          "Human Resources",
+          "منابع انسانی"
+        ],
+        [
+          "Import And Export",
+          "واردات و صادرات"
+        ],
+        [
+          "Individual And Family Services",
+          "خدمات فردی و خانوادگی"
+        ],
+        [
+          "Industrial Automation",
+          "اتوماسیون صنعتی"
+        ],
+        [
+          "Information Services",
+          "خدمات اطلاع رسانی"
+        ],
+        [
+          "Information Technology And Services",
+          "فناوری اطلاعات و خدمات"
+        ],
+        [
+          "Insurance",
+          "بیمه"
+        ],
+        [
+          "International Affairs",
+          "امور بین المللی"
+        ],
+        [
+          "International Trade And Development",
+          "تجارت و توسعه بین المللی"
+        ],
+        [
+          "Internet",
+          "اینترنت"
+        ],
+        [
+          "Investment Banking Venture",
+          "سرمایه گذاری بانکی / سرمایه گذاری"
+        ],
+        [
+          "Investment Management",
+          "مدیریت سرمایه گذاری"
+        ],
+        [
+          "Judiciary",
+          "دادگستری"
+        ],
+        [
+          "Law Enforcement",
+          "اجرای قانون"
+        ],
+        [
+          "Law Practice",
+          "عمل قانون"
+        ],
+        [
+          "Legal Services",
+          "خدمات حقوقی"
+        ],
+        [
+          "Legislative Office",
+          "دفتر قانونگذاری"
+        ],
+        [
+          "Leisure And Travel",
+          "اوقات فراغت و مسافرت"
+        ],
+        [
+          "Libraries",
+          "کتابخانه ها"
+        ],
+        [
+          "Logistics And Supply Chain",
+          "تدارکات و زنجیره تامین"
+        ],
+        [
+          "Luxury Goods And Jewelry",
+          "کالاهای لوکس و جواهرات"
+        ],
+        [
+          "Machinery",
+          "ماشین الات"
+        ],
+        [
+          "Management Consulting",
+          "مشاوردهی در امر مدیریت"
+        ],
+        [
+          "Maritime",
+          "دریایی"
+        ],
+        [
+          "Marketing And Advertising",
+          "بازاریابی و تبلیغات"
+        ],
+        [
+          "Market Research",
+          "تحقیقات بازار"
+        ],
+        [
+          "Mechanical Or Industrial Engineering",
+          "مهندسی مکانیک یا صنعتی"
+        ],
+        [
+          "Media Production",
+          "تولید رسانه"
+        ],
+        [
+          "Medical Device",
+          "دستگاه پزشکی"
+        ],
+        [
+          "Medical Practice",
+          "تمرین پزشکی"
+        ],
+        [
+          "Mental Health Care",
+          "مراقبت از سلامت روان"
+        ],
+        [
+          "Military",
+          "نظامی"
+        ],
+        [
+          "Mining And Metals",
+          "معدن و فلزات"
+        ],
+        [
+          "Motion Pictures And Film",
+          "تصاویر متحرک و فیلم"
+        ],
+        [
+          "Museums And Institutions",
+          "موزه ها و موسسات"
+        ],
+        [
+          "Music",
+          "موسیقی"
+        ],
+        [
+          "Nanotechnology",
+          "فناوری نانو"
+        ],
+        [
+          "Newspapers",
+          "روزنامه ها"
+        ],
+        [
+          "Nonprofit Organization Management",
+          "مدیریت سازمان غیرانتفاعی"
+        ],
+        [
+          "Oil And Energy",
+          "نفت و انرژی"
+        ],
+        [
+          "Online Publishing",
+          "انتشار آنلاین"
+        ],
+        [
+          "Outsourcing Offshoring",
+          "معاملات برون مرزی و برون سپاری"
+        ],
+        [
+          "Package Freight Delivery",
+          "تحویل بسته بندی / حمل بار"
+        ],
+        [
+          "Packaging And Containers",
+          "بسته بندی و ظروف"
+        ],
+        [
+          "Paper And Forest Products",
+          "محصولات کاغذی و جنگلی"
+        ],
+        [
+          "Performing Arts",
+          "هنرهای نمایشی"
+        ],
+        [
+          "Pharmaceuticals",
+          "داروسازی"
+        ],
+        [
+          "Philanthropy",
+          "بشردوستانه"
+        ],
+        [
+          "Photography",
+          "عکاسی"
+        ],
+        [
+          "Plastics",
+          "پلاستیک"
+        ],
+        [
+          "Political Organization",
+          "سازمان سیاسی"
+        ],
+        [
+          "Primary Secondary",
+          "اولیه ثانویه"
+        ],
+        [
+          "Printing",
+          "چاپ"
+        ],
+        [
+          "Professional Training",
+          "آموزش حرفه ای"
+        ],
+        [
+          "Program Development",
+          "برنامه نویسی نرم افزار"
+        ],
+        [
+          "Public Policy",
+          "سیاست عمومی"
+        ],
+        [
+          "Public Relations",
+          "روابط عمومی"
+        ],
+        [
+          "Public Safety",
+          "امنیت عمومی"
+        ],
+        [
+          "Publishing",
+          "انتشارات"
+        ],
+        [
+          "Railroad Manufacture",
+          "ساخت راه آهن"
+        ],
+        [
+          "Ranching",
+          "دامداری"
+        ],
+        [
+          "Real Estate",
+          "مشاور املاک"
+        ],
+        [
+          "Recreational",
+          "تفریحی"
+        ],
+        [
+          "Facilities And Services",
+          "امکانات و خدمات"
+        ],
+        [
+          "Religious Institutions",
+          "مؤسسات مذهبی"
+        ],
+        [
+          "Renewables And Environment",
+          "بازیافت و محیط زیست"
+        ],
+        [
+          "Research",
+          "پژوهش"
+        ],
+        [
+          "Restaurants",
+          "رستوران"
+        ],
+        [
+          "Retail",
+          "خرده فروشی"
+        ],
+        [
+          "Security And Investigations",
+          "امنیت و تحقیقات"
+        ],
+        [
+          "Semiconductors",
+          "نیمه هادی ها"
+        ],
+        [
+          "Shipbuilding",
+          "کشتی سازی"
+        ],
+        [
+          "Sporting Goods",
+          "محصولات ورزشی"
+        ],
+        [
+          "Sports",
+          "ورزشی"
+        ],
+        [
+          "Staffing And Recruiting",
+          "استخدام و کارمندان"
+        ],
+        [
+          "Supermarkets",
+          "سوپر مارکت ها"
+        ],
+        [
+          "Telecommunications",
+          "ارتباطات از راه دور"
+        ],
+        [
+          "Textiles",
+          "منسوجات"
+        ],
+        [
+          "Think Tanks",
+          "مخازن"
+        ],
+        [
+          "Tobacco",
+          "تنباکو"
+        ],
+        [
+          "Translation And Localization",
+          "ترجمه و بومی سازی"
+        ],
+        [
+          "Transportation Trucking Railroad",
+          "حمل و نقل / کامیون سازی / راه آهن"
+        ],
+        [
+          "Utilities",
+          "خدمات رفاهی"
+        ],
+        [
+          "Venture Capital",
+          "سرمایه گذاری"
+        ],
+        [
+          "Veterinary",
+          "دامپزشکی"
+        ],
+        [
+          "Warehousing",
+          "انبارداری"
+        ],
+        [
+          "Wholesale",
+          "عمده فروشی"
+        ],
+        [
+          "Wine And Spirits",
+          "شراب و نوشیدنی"
+        ],
+        [
+          "Wireless",
+          "خدمات بیسیم"
+        ],
+        [
+          "Writing And Editing",
+          "نوشتن و ویرایش"
+        ],
+        [
+          "Economic Code",
+          "کد اقتصادی"
+        ],
+        [
+          "More",
+          "بیشتر"
+        ],
+        [
+          "Contracts",
+          "قرارداد ها"
+        ],
+        [
+          "Contract",
+          "قرارداد"
+        ],
+        [
+          "Subject",
+          "موضوع"
+        ],
+        [
+          "Contract Date",
+          "تاریخ قرارداد"
+        ],
+        [
+          "Contract Start Date",
+          "تاریخ شروع قرارداد"
+        ],
+        [
+          "Contract Duration",
+          "مدت قرارداد"
+        ],
+        [
+          "Contract End Date",
+          "تاریخ اتمام قرارداد"
+        ],
+        [
+          "Contract Location",
+          "محل قرارداد"
+        ],
+        [
+          "Contract Row",
+          "ردیف پیمان"
+        ],
+        [
+          "Workshop Code",
+          "کد کارگاه"
+        ],
+        [
+          "Guarantee Period",
+          "مدت تضمین"
+        ],
+        [
+          "Descriptions",
+          "توضیحات"
+        ],
+        [
+          "General",
+          "عمومی"
+        ],
+        [
+          "Employer",
+          "کارفرما"
+        ],
+        [
+          "Contractor",
+          "پیمانکار"
+        ],
+        [
+          "Adviser",
+          "مشاور"
+        ],
+        [
+          "Employer Agent",
+          "نماینده کارفرما"
+        ],
+        [
+          "Contractor Agent",
+          "نماینده پیمانکار"
+        ],
+        [
+          "Adviser Agent",
+          "نماینده مشاور"
+        ],
+        [
+          "Financial",
+          "مالی"
+        ],
+        [
+          "Deductions / Additions",
+          "کسورات/اضافات"
+        ],
+        [
+          "Deductions",
+          "کسورات"
+        ],
+        [
+          "Additions",
+          "اضافات"
+        ],
+        [
+          "Value",
+          "مقدار"
+        ],
+        [
+          "Land Assignment",
+          "تحویل زمین"
+        ],
+        [
+          "General / Private Conditions",
+          "شرایط عمومی/خصوصی"
+        ],
+        [
+          "General Conditions",
+          "شرایط عمومی قرارداد"
+        ],
+        [
+          "Private Conditions",
+          "شرایط خصوصی قرارداد"
+        ],
+        [
+          "Correspondents",
+          "طرفین قرارداد"
+        ],
+        [
+          "Duration",
+          "مدت"
+        ],
+        [
+          "Balancesheets",
+          "صورت وضعیت ها"
+        ],
+        [
+          "Contract Cost",
+          "مبلغ قرارداد"
+        ],
+        [
+          "Letter ID",
+          "شماره نامه ابلاغ قرارداد"
+        ],
+        [
+          "Letter Date",
+          "تاریخ نامه ابلاغ قرارداد"
+        ],
+        [
+          "Prepayment Value",
+          "مبلغ پیش پرداخت"
+        ],
+        [
+          "Prepayment Type",
+          "حالت پیش پرداخت"
+        ],
+        [
+          "Invitation Number",
+          "شماره دعوتنامه تحویل زمین"
+        ],
+        [
+          "Invitation Date",
+          "تاریخ دعوت نامه تحویل زمین"
+        ],
+        [
+          "Communicate Number",
+          "شماره ابلاغ تحویل زمین"
+        ],
+        [
+          "Communicate Date",
+          "تاریخ ابلاغ تحویل زمین"
+        ],
+        [
+          "Delivery Date",
+          "تاریخ تحویل زمین"
+        ],
+        [
+          "Temporary Handover",
+          "تحویل موقت"
+        ],
+        [
+          "Final Handover",
+          "تحویل قطعی"
+        ],
+        [
+          "Reduce Contract Duration",
+          "کاهش زمان قرارداد"
+        ],
+        [
+          "Suspend Contract",
+          "تعلیق قرارداد"
+        ],
+        [
+          "Suspend",
+          "تعلیق"
+        ],
+        [
+          "Reduce Amount",
+          "کاهش مبلغ قرارداد"
+        ],
+        [
+          "Terminate Contract",
+          "فسخ قرارداد"
+        ],
+        [
+          "Terminated",
+          "فسخ شده"
+        ],
+        [
+          "In Proccess",
+          "در حال اجرا"
+        ],
+        [
+          "Temporary Handovered",
+          "تحویل موقت شده"
+        ],
+        [
+          "Handovered",
+          "تحویل شده"
+        ],
+        [
+          "Suspended",
+          "معلق"
+        ],
+        [
+          "Contractor Request ID",
+          "شماره درخواست پیمانکار"
+        ],
+        [
+          "Contractor Request Date",
+          "تاریخ درخواست پیمانکار"
+        ],
+        [
+          "Adviser Accept ID",
+          "شماره تایید مشاور"
+        ],
+        [
+          "Adviser Accept Date",
+          "تاریخ تایید مشاور"
+        ],
+        [
+          "Employer Communicate ID",
+          "شماره ابلاغ کارفرما"
+        ],
+        [
+          "Employer Communicate Date",
+          "تاریخ ابلاغ کارفرما"
+        ],
+        [
+          "Temporary Handover Date",
+          "تاریخ تحویل موقت"
+        ],
+        [
+          "Final Handover Date",
+          "تاریخ تحویل قطعی"
+        ],
+        [
+          "Reduce Duration",
+          "کاهش مدت قرارداد"
+        ],
+        [
+          "Start Date",
+          "تاریخ شروع"
+        ],
+        [
+          "Duration Value",
+          "مقدار"
+        ],
+        [
+          "Duration Type",
+          "حالت"
+        ],
+        [
+          "Extension Type",
+          "حالت افزایش/کاهش"
+        ],
+        [
+          "Extend Contract",
+          "افزایش مدت قرارداد"
+        ],
+        [
+          "Increase Contract",
+          "افزایش مبلغ قرارداد"
+        ],
+        [
+          "Extend Duration",
+          "افزایش مدت قرارداد"
+        ],
+        [
+          "Increase Value",
+          "مقدار"
+        ],
+        [
+          "Increase Type",
+          "حالت"
+        ],
+        [
+          "Reduce",
+          "کاهش"
+        ],
+        [
+          "Increase",
+          "افزایش"
+        ],
+        [
+          "Extend",
+          "افزایش"
+        ],
+        [
+          "Initial Contract Cost",
+          "مبلغ اصلی قرارداد"
+        ],
+        [
+          "Contract Cost Calculated",
+          "مبلغ محاسبه شده قرارداد"
+        ],
+        [
+          "End Date Calculated",
+          "تاریخ محاسبه شده اتمام قرارداد"
+        ],
+        [
+          "End Date",
+          "تاریخ پایان"
+        ],
+        [
+          "Terminate Employer Letter ID",
+          "شماره نامه کارفرما"
+        ],
+        [
+          "Terminate Employer Letter Date",
+          "تاریخ نامه کارفرما"
+        ],
+        [
+          "Terminate Reason",
+          "علت فسخ قرارداد"
+        ],
+        [
+          "TERMINATE_REASON_ONE",
+          "ماده 46"
+        ],
+        [
+          "TERMINATE_REASON_TWO",
+          "ماده 47"
+        ],
+        [
+          "TERMINATE_REASON_THREE",
+          "ماده 48"
+        ],
+        [
+          "Day",
+          "روز"
+        ],
+        [
+          "Month",
+          "ماه"
+        ],
+        [
+          "Year",
+          "سال"
+        ],
+        [
+          "Number",
+          "شماره"
+        ],
+        [
+          "Received Date",
+          "تاریخ دریافت"
+        ],
+        [
+          "Secretariat Number",
+          "شماره دبیرخانه"
+        ],
+        [
+          "Status",
+          "وضعیت"
+        ],
+        [
+          "Balancesheet Cost",
+          "مبلغ صورت وضعیت"
+        ],
+        [
+          "Adviser Accepted Cost",
+          "مبلغ تایید شده مشاور"
+        ],
+        [
+          "Employer Accepted Cost",
+          "مبلغ تایید شده کارفرما"
+        ],
+        [
+          "Result",
+          "محاسبه"
+        ],
+        [
+          "Amount",
+          "پرداختی"
+        ],
+        [
+          "Amount Date",
+          "تاریخ پرداخت"
+        ],
+        [
+          "Cheque ID",
+          "شماره چک"
+        ],
+        [
+          "Cheque Value",
+          "مبلغ چک"
+        ],
+        [
+          "Payable",
+          "قابل پرداخت"
+        ],
+        [
+          "Accepted",
+          "تایید شده"
+        ],
+        [
+          "Under Review",
+          "در دست بررسی"
+        ],
+        [
+          "Rejected",
+          "رد شده"
+        ],
+        [
+          "Dollar",
+          "ریال"
+        ],
+        [
+          "Percentage",
+          "درصد"
+        ],
+        [
+          "Suretybonds",
+          "ضمانت نامه ها"
+        ],
+        [
+          "Bank Suretybonds",
+          "بانکی"
+        ],
+        [
+          "Issuing Bank",
+          "بانک صادر کننده"
+        ],
+        [
+          "Branch",
+          "شعبه"
+        ],
+        [
+          "Account Number",
+          "شماره حساب"
+        ],
+        [
+          "Letter Number",
+          "شماره نامه"
+        ],
+        [
+          "Committed Name",
+          "نام متعهد"
+        ],
+        [
+          "Interested Name",
+          "نام ذینفع"
+        ],
+        [
+          "Cost",
+          "مبلغ"
+        ],
+        [
+          "Issue Date",
+          "تاریخ صدور"
+        ],
+        [
+          "Expiration Date",
+          "تاریخ انقضا"
+        ],
+        [
+          "Suretybond Type",
+          "نوع"
+        ],
+        [
+          "Job Process",
+          "شرکت در فرایند ارجاع کار"
+        ],
+        [
+          "Performance Obligation",
+          "حسن انجام تعهدات"
+        ],
+        [
+          "Performance Guarantee",
+          "حسن انجام کار"
+        ],
+        [
+          "Performance Withholding",
+          "استرداد کسور وجه الضمان"
+        ],
+        [
+          "Prepayment",
+          "پیش پرداخت"
+        ],
+        [
+          "Customs",
+          "گمرکی"
+        ],
+        [
+          "Payment Obligations",
+          "تعهدات پرداخت"
+        ],
+        [
+          "Other",
+          "سایر"
+        ],
+        [
+          "Promissory Note",
+          "سفته"
+        ],
+        [
+          "Serial Number",
+          "شماره سریال"
+        ],
+        [
+          "Payment Place",
+          "محل پرداخت"
+        ],
+        [
+          "Import",
+          "وارد کردن"
+        ],
+        [
+          "Create Date",
+          "زمان ایجاد"
+        ],
+        [
+          "Sheets Number",
+          "تعداد شیت ها"
+        ],
+        [
+          "Type",
+          "حالت"
+        ],
+        [
+          "Mode",
+          "حالت"
+        ]
+      ]
+    }
+  }
+]

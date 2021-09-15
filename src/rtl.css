@@ -1,0 +1,27 @@
+.rtl,
+.rtl * {
+  direction: rtl;
+}
+
+.rtl .en .rmdp-wrapper * {
+  direction: ltr;
+}
+
+.rtl .float-right {
+  float: left !important;
+}
+
+.rtl .float-left {
+  float: right !important;
+}
+
+.fa,
+.fa *,
+.fa label {
+  font-family: Vazir;
+}
+
+input[direction="ltr"],
+.direction-ltr {
+  direction: ltr;
+}

@@ -1,0 +1,19 @@
+.icon-container {
+  padding: 0.1rem;
+  margin: 0 0.5rem;
+  width: 7em;
+  height: 9em;
+  display: grid;
+  grid-template-rows: 6em 3em;
+  cursor: pointer;
+
+  .icon svg {
+    width: 7em;
+    height: 6em;
+    stroke-width: 1;
+  }
+
+  .name {
+    text-align: center;
+  }
+}

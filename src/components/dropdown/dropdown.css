@@ -1,0 +1,38 @@
+.dropdown .icon {
+  cursor: pointer;
+  height: 15px;
+}
+
+.dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.dropdown ul li {
+  cursor: pointer;
+  padding: 5px 10px;
+  min-width: 120px;
+  color: black;
+}
+
+.dropdown ul li:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.dropdown ul li:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+.dropdown ul li:hover {
+  background-color: #ddd;
+}
+
+.dropdown ul li.red:hover {
+  background-color: red;
+  color: white;
+}
