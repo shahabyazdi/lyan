@@ -96,6 +96,8 @@ function Items({
           options.onMoveUp = () => {
             moveElement(item.index, "up", "item");
 
+            if (!activeItem) return;
+
             if (item.id === activeItem.id) {
               setItemIndex(item.index - 1);
             } else if (item.index - 1 === activeItem.index) {
@@ -108,7 +110,9 @@ function Items({
           options.onMoveDown = () => {
             moveElement(item.index, "down", "item");
 
-            if (item.id === activeItem.id) {
+            if (!activeItem) return;
+
+            if (item.id === activeItem?.id) {
               setItemIndex(item.index + 1);
             } else if (item.index + 1 === activeItem.index) {
               setItemIndex(item.index);

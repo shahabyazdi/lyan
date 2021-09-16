@@ -81,6 +81,8 @@ function Sidebar({
               options.onMoveUp = () => {
                 moveElement(item.index, "up", "sheet");
 
+                if (!activeItem) return;
+
                 if (item.id === activeItem.id) {
                   setSheetIndex(item.index - 1);
                 } else if (item.index - 1 === activeItem.index) {
@@ -92,6 +94,8 @@ function Sidebar({
             if (item.movedown) {
               options.onMoveDown = () => {
                 moveElement(item.index, "down", "sheet");
+
+                if (!activeItem) return;
 
                 if (item.id === activeItem.id) {
                   setSheetIndex(item.index + 1);

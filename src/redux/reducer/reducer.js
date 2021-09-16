@@ -475,7 +475,7 @@ function reducer(state = initialState, action) {
 
       return {
         ...state,
-        [key]: { ...state.doc },
+        doc: { ...state.doc },
         save: true,
       };
     case types.SET_ATTACHMENT_SUB_PATH:
