@@ -112,7 +112,7 @@ function Items({
 
             if (!activeItem) return;
 
-            if (item.id === activeItem?.id) {
+            if (item.id === activeItem.id) {
               setItemIndex(item.index + 1);
             } else if (item.index + 1 === activeItem.index) {
               setItemIndex(item.index);

@@ -35,7 +35,7 @@
   },
   "scripts": {
     "start": "concurrently \"yarn react-start\" \"wait-on http://localhost:3000 && electron .\"",
-    "build": "electron-builder --win",
+    "build": "electron-builder",
     "prebuild": "yarn react-build",
     "react-start": "react-scripts start",
     "react-build": "react-scripts build",

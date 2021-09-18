@@ -4,6 +4,7 @@
 
 <div align="center">
   <img src="https://github.com/shahabyazdi/lyan/blob/master/screenshots/v0.1.0.png?raw=true" alt="lyan app"/>
+  <img src="https://github.com/shahabyazdi/lyan/blob/master/screenshots/v0.1.0-2.png?raw=true" alt="lyan app"/>
 </div>
 
 # Building Package

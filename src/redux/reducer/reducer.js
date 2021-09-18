@@ -408,8 +408,6 @@ function reducer(state = initialState, action) {
         zIndex: { ...state.zIndex, [action.id]: number },
       };
     case types.MOVE_ELEMENT:
-      let key = state.mode === "file" ? "file" : "template";
-
       if (action.what) {
         let { sheetIndex } = state,
           { from, where, what } = action,
@@ -457,6 +455,7 @@ function reducer(state = initialState, action) {
 
               array[i] = { ...array[from] };
               array[from] = target;
+
               break;
             }
 
