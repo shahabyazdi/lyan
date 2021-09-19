@@ -514,9 +514,7 @@ function reducer(state = initialState, action) {
 
       state.toLocale = getToLocale(
         state,
-        state[state.mode === "template" ? "template" : "file"]?.variables?.[
-          settings.language
-        ]
+        state.doc?.variables?.[settings.language]
       );
 
       document.title = document.title.replace(
