@@ -282,10 +282,12 @@ function reducer(state = initialState, action) {
         save: false,
       };
     case types.NEW_FORM:
+      if (state.forms.some(({ id }) => id === action.data.id)) return state;
+
       let forms = state.forms;
       let lastForm = forms[forms.length - 1];
       let id = lastForm ? lastForm.id + 1 : 1;
-      let newForm = { ...action.data, id };
+      let newForm = { ...action.data, id: action.data.id || id };
 
       return {
         ...state,
@@ -483,6 +485,8 @@ function reducer(state = initialState, action) {
         subPath: action.path,
       };
     case types.OPEN_SETTINGS:
+      if (state.forms.some(({ id }) => id === "settings")) return state;
+
       return {
         ...state,
         forms: [
@@ -490,7 +494,7 @@ function reducer(state = initialState, action) {
           {
             title: "Settings",
             body: <Settings />,
-            id: (state.forms[state.forms.length - 1]?.id || 0) + 1,
+            id: "settings",
           },
         ],
       };

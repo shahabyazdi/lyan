@@ -69,6 +69,7 @@ function Elements({
                 onEdit: () => {
                   newForm({
                     title: "Edit Element",
+                    id: schema.id,
                     body: <NewSchema index={schema.schemaindex} edit />,
                   });
                 },

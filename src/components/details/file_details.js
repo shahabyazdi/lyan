@@ -1,5 +1,6 @@
 import FormGroup from "../form_group/form_group";
 import Input from "lyan-ui/components/input";
+import Button from "lyan-ui/components/button";
 import Title from "../default_sections/shared/titlle";
 import Variables from "../variables/variables";
 import FormatDate from "../format_date/format_date";
@@ -94,13 +95,13 @@ function FileDetails({
           />
         </FormGroup>
         <FormGroup title="Variables">
-          <button
+          <Button
             className="button button-primary margin-5"
             style={{ display: "block" }}
             onClick={openVariables}
           >
             {translate("View")}
-          </button>
+          </Button>
         </FormGroup>
       </div>
     </>

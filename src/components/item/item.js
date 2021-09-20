@@ -1,6 +1,7 @@
 import Tab from "lyan-ui/components/tab";
 import Elements from "./elements/elements";
 import Input from "lyan-ui/components/number";
+import UIButton from "lyan-ui/components/button";
 import Connections from "./connections/connections";
 import Attachments from "./attachments/attachments";
 import Details from "./details/details";
@@ -129,7 +130,7 @@ function Item({
 
   function Button({ close, onClick = () => {}, children }) {
     return (
-      <button
+      <UIButton
         onClick={() => {
           onClick();
           close();
@@ -138,7 +139,7 @@ function Item({
         style={{ margin: "5px 0" }}
       >
         {children}
-      </button>
+      </UIButton>
     );
   }
 

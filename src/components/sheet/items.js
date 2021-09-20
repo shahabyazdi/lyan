@@ -71,6 +71,7 @@ function Items({
           onEdit: () => {
             newForm({
               title: "Edit Item",
+              id: item.id,
               body: (
                 <EditItem
                   external={{ itemIndex: item.index }}

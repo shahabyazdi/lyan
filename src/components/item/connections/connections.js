@@ -1,6 +1,7 @@
 import NewConnection from "./new_connection";
 import FormGroup from "../../form_group/form_group";
 import Input from "lyan-ui/components/input";
+import Button from "lyan-ui/components/button";
 import Section from "lyan-ui/components/section";
 import ID from "../../schema/id";
 import FormatDate from "../../format_date/format_date";
@@ -128,19 +129,19 @@ function Connections({
           />
         </FormGroup>
         {!outer && (
-          <button
+          <Button
             className="button button-primary float-right margin-left-5"
             onClick={() => deleteConnection(id)}
           >
             {translate("Delete")}
-          </button>
+          </Button>
         )}
-        <button
+        <Button
           className="button button-primary float-right margin-left-5"
           onClick={() => editConnection(id, outer)}
         >
           {translate("Edit")}
-        </button>
+        </Button>
       </Section>
     );
   }

@@ -29,9 +29,15 @@ export default function newItem(sheetIndex, callback) {
   dispatch(
     newForm({
       title: "New Item",
+      id: item.id,
       body: <EditItem external={{ sheetIndex, itemIndex }} />,
       onSuccess: (close, form) => {
+        const doc = store.getState().doc;
         const elements = form.querySelectorAll("[required]");
+        const id = form.getAttribute("data-id");
+        const index = doc.sheets[sheetIndex].items.findIndex(
+          (item) => item.id === id
+        );
 
         for (let element of elements) {
           if (!element.value) {
@@ -41,17 +47,18 @@ export default function newItem(sheetIndex, callback) {
           }
         }
 
-        //must get updated file.
-        let doc = store.getState().doc;
-
-        delete doc.sheets[sheetIndex].items[itemIndex].temp;
+        delete doc.sheets[sheetIndex].items[index].temp;
 
         dispatch(updateDoc(doc));
-        callback?.({ ...item, itemIndex });
+        callback?.({ ...item, itemIndex: index });
         close();
       },
-      onClose: () => {
-        doc.sheets[sheetIndex].items.pop();
+      onClose: (id) => {
+        const doc = store.getState().doc;
+
+        doc.sheets[sheetIndex].items = doc.sheets[sheetIndex].items.filter(
+          (item) => item.id !== id
+        );
 
         dispatch(updateDoc(doc));
       },

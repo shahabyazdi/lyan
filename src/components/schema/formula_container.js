@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import ElementPopper from "react-element-popper";
+import Button from "lyan-ui/components/button";
 import { updateDoc } from "../../redux/actions/actions";
 import { connect } from "react-redux";
 import "./formula_container.css";
@@ -53,9 +54,9 @@ function FormulaContainer({ schema, setSchema, sheetIndex, doc }) {
           return (
             <li key={index} className={item.className}>
               <span>{item.text}</span>
-              <button type="button" onClick={() => deleteItem(index, item)}>
+              <Button type="button" onClick={() => deleteItem(index, item)}>
                 +
-              </button>
+              </Button>
             </li>
           );
         })}

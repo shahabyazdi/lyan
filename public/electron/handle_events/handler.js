@@ -213,7 +213,7 @@ module.exports = {
 
       event.returnValue = base64;
     } catch (err) {
-      console.log("preview err", err);
+      console.log(err);
       event.returnValue = "";
     }
   },
@@ -292,7 +292,7 @@ module.exports = {
       notification.on("click", () => shell.openPath(fileDir));
     });
 
-    archive.on("error", (err) => console.log("err", err));
+    archive.on("error", (err) => console.log(err));
 
     archive.pipe(output);
 

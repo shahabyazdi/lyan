@@ -135,7 +135,7 @@ function MoreOptions({
     case "multi select manual":
       return (
         <div>
-          <FormGroup title="Options">
+          <FormGroup title="Options" style={{ maxWidth: "600px" }}>
             <div className="display-flex">
               <FormGroup title="Text" className="flex-1">
                 <Input

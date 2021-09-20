@@ -69,7 +69,7 @@ function Sidebar({
 
           if (mode !== "default") {
             options = {
-              onEdit: () => editSheet(item.index),
+              onEdit: () => editSheet(item),
               onDelete: () => removeSheet(item.index),
             };
 
@@ -166,9 +166,12 @@ function Sidebar({
 
     newForm({
       title: "New Sheet",
+      id: sheet.id,
       body: <EditSheet index={index} itemName />,
       onSuccess: (close, form) => {
         let name = form.querySelector("[id='sheetName']");
+        let id = form.getAttribute("data-id");
+        let index = doc.sheets.findIndex((sheet) => sheet.id === id);
 
         if (!name.value) return api.alert("name is required");
 
@@ -177,8 +180,8 @@ function Sidebar({
         update();
         close();
       },
-      onClose: () => {
-        doc.sheets.pop();
+      onClose: (id) => {
+        doc.sheets = doc.sheets.filter((sheet) => sheet.id !== id);
 
         update();
       },
@@ -189,10 +192,11 @@ function Sidebar({
     updateDoc(doc);
   }
 
-  function editSheet(index) {
+  function editSheet(item) {
     newForm({
       title: "Edit Sheet",
-      body: <EditSheet index={index} itemName />,
+      body: <EditSheet index={item.index} itemName />,
+      id: item.id,
     });
   }
 

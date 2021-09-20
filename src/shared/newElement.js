@@ -22,8 +22,14 @@ export default function newElement(groupId) {
   store.dispatch(
     newForm({
       title: "New Element",
+      id: schema.id,
       body: <NewSchema index={index} />,
       onSuccess: (close, form) => {
+        const id = form.getAttribute("data-id");
+        const index = doc.sheets[sheetIndex].schemas.findIndex(
+          (schema) => schema.id === id
+        );
+
         delete doc.sheets[sheetIndex].schemas[index].temp;
 
         doc.sheets[sheetIndex].schemas[index].group = groupId;
@@ -49,8 +55,10 @@ export default function newElement(groupId) {
 
         close();
       },
-      onClose: () => {
-        doc.sheets[sheetIndex].schemas.pop();
+      onClose: (id) => {
+        doc.sheets[sheetIndex].schemas = doc.sheets[sheetIndex].schemas.filter(
+          (schema) => schema.id !== id
+        );
 
         store.dispatch(updateDoc(doc));
       },
